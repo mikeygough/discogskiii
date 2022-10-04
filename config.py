@@ -1,5 +1,0 @@
-CONSUMER_KEY = 'PGGorCeZkZOjtrUJbwsU'
-CONSUMER_SECRET = 'QhnCRnPGXZuRszaiqPnseYOgMAwktPCK'
-REQUEST_TOKEN_URL = 'https://api.discogs.com/oauth/request_token'
-AUTHORIZE_URL = 'https://www.discogs.com/oauth/authorize'
-ACCESS_TOKEN_URL = 'https://api.discogs.com/oauth/access_token'
