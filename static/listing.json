@@ -1,0 +1,103 @@
+{
+    "id": 2134134359,
+    "resource_url": "https://api.discogs.com/marketplace/listings/2134134359",
+    "uri": "https://www.discogs.com/sell/item/2134134359",
+    "status": "For Sale",
+    "condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "comments": "Vg++ cover",
+    "ships_from": "United States",
+    "posted": "2022-09-09T13:51:35-07:00",
+    "allow_offers": false,
+    "audio": false,
+    "price":
+    {
+        "value": 10000.0,
+        "currency": "USD"
+    },
+    "original_price":
+    {
+        "curr_abbr": "USD",
+        "curr_id": 1,
+        "formatted": "$10,000.00",
+        "value": 10000.0
+    },
+    "shipping_price":
+    {},
+    "original_shipping_price":
+    {},
+    "seller":
+    {
+        "id": 743184,
+        "username": "Supaflys",
+        "avatar_url": "https://secure.gravatar.com/avatar/e43d7fd60077046b5002b8e500790a93?s=500&r=pg&d=mm",
+        "stats":
+        {
+            "rating": "100.0",
+            "stars": 5.0,
+            "total": 384
+        },
+        "min_order_total": 0.0,
+        "html_url": "https://www.discogs.com/user/Supaflys",
+        "uid": 743184,
+        "url": "https://api.discogs.com/users/Supaflys",
+        "payment": "PayPal Commerce",
+        "shipping": "The Buyer is responsible for shipping. US-shipping is $5 and $1 per additional records (Media Mail), If you need faster service, please contact for pricing. Please contact for international pricing. ",
+        "resource_url": "https://api.discogs.com/users/Supaflys"
+    },
+    "release":
+    {
+        "thumbnail": "https://i.discogs.com/sPNPnYmqRdGSLg01YsiKeoZ280zPt9t6sKCjOrp_Zig/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/NS00NTI3LmpwZWc.jpeg",
+        "description": "Sun Ra And His Arkestra* - Super-Sonic Jazz (LP, Album)",
+        "images":
+        [
+            {
+                "type": "primary",
+                "uri": "https://i.discogs.com/lNPkoLDj3YtpD_kvr-98G_sYBRB0ZaOC-lfJGfKAmyQ/rs:fit/g:sm/q:90/h:572/w:569/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/NS00NTI3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/lNPkoLDj3YtpD_kvr-98G_sYBRB0ZaOC-lfJGfKAmyQ/rs:fit/g:sm/q:90/h:572/w:569/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/NS00NTI3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/sPNPnYmqRdGSLg01YsiKeoZ280zPt9t6sKCjOrp_Zig/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/NS00NTI3LmpwZWc.jpeg",
+                "width": 569,
+                "height": 572
+            },
+            {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/p4NMSs8nAmebXDhyt_BIcWBdEHbQEjsCmwRKiB7ooRA/rs:fit/g:sm/q:90/h:543/w:547/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/Ni02NjkzLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/p4NMSs8nAmebXDhyt_BIcWBdEHbQEjsCmwRKiB7ooRA/rs:fit/g:sm/q:90/h:543/w:547/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/Ni02NjkzLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/3v3oWhusi9t-uR0XWQ5MzWiP7WFMwOCNlCi0iXUFico/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/Ni02NjkzLmpwZWc.jpeg",
+                "width": 547,
+                "height": 543
+            },
+            {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/D03L8KBd2uDIyPULj3oQs6axJ3eGg6wrY2H_Y7EL1c4/rs:fit/g:sm/q:90/h:531/w:529/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/OC04OTE1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/D03L8KBd2uDIyPULj3oQs6axJ3eGg6wrY2H_Y7EL1c4/rs:fit/g:sm/q:90/h:531/w:529/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/OC04OTE1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/IdVkEN_wOEj-ke2YNASHSugT2qLwELLUkQpHPrfq0_w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzMjk4Nzcx/OC04OTE1LmpwZWc.jpeg",
+                "width": 529,
+                "height": 531
+            },
+            {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/TpEh8qgeauNHMKLfemcKVcMUByPkN_vRryAT7j66TYA/rs:fit/g:sm/q:90/h:558/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzODMzMTcx/Mi03OTM0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/TpEh8qgeauNHMKLfemcKVcMUByPkN_vRryAT7j66TYA/rs:fit/g:sm/q:90/h:558/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzODMzMTcx/Mi03OTM0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Zis7e7KZT-8hxoST9v_L7KcLhpC4uQlyaZFkslKyMqQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjg4/NzUtMTQzODMzMTcx/Mi03OTM0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 558
+            }
+        ],
+        "artist": "Sun Ra And His Arkestra*",
+        "format": "LP, Album",
+        "resource_url": "https://api.discogs.com/releases/7068875",
+        "title": "Super-Sonic Jazz",
+        "year": 1957,
+        "id": 7068875,
+        "catalog_number": "H7OP0216",
+        "stats":
+        {
+            "community":
+            {
+                "in_wantlist": 1128,
+                "in_collection": 42
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    
+    <form action="/sample-request-search" method="post">
+        <input autocomplete="off" autofocus id="artist" name="artist" placeholder="Artist" type="text">
+        <button type="submit">Search</button>
+    </form>
+
+    {% for master in masters %}
+        <li>{{ master }}</li>
+    {% endfor %}
+
+{% endblock %}

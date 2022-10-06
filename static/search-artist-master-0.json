@@ -1,0 +1,37 @@
+{
+    "country": "France",
+    "year": "1973",
+    "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+    ],
+    "label": [
+        "Atlantic",
+        "Gibus Club"
+    ],
+    "type": "master",
+    "genre": [
+        "Jazz"
+    ],
+    "style": [
+        "Free Jazz"
+    ],
+    "id": 143593,
+    "barcode": [
+        "\u24b7",
+        "SACEM SACD SDRM SGDL"
+    ],
+    "master_id": 143593,
+    "master_url": "https://api.discogs.com/masters/143593",
+    "uri": "/master/143593-Sun-Ra-Live-In-Paris-At-The-Gibus",
+    "catno": "40 540",
+    "title": "Sun Ra - Live In Paris At The \"Gibus\"",
+    "thumb": "https://i.discogs.com/BfLWaZQkECSpIVYk_ANKuALkKZIvkrFikB0Ijlpo61g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+    "cover_image": "https://i.discogs.com/IOT9LAh1Q85bLY56MhJV1ZWm6cJCVjm5Wr7m3f46ovw/rs:fit/g:sm/q:90/h:373/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+    "resource_url": "https://api.discogs.com/masters/143593",
+    "community": {
+        "want": 435,
+        "have": 365
+    }
+}

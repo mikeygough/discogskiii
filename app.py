@@ -9,16 +9,47 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    r = requests.get('https://api.discogs.com/releases/249504', auth=(CONSUMER_KEY, CONSUMER_SECRET))
+    return render_template("index.html")
 
-    # sample response
-    # print("Status Code: ", r.status_code)
-    # print("Headers Content Type: ", r.headers['content-type'])
-    # clean json
-    parsed_r = json.loads(r.text)
-    # print(json.dumps(parsed_r, indent=4))    
+@app.route("/sample-request")
+def sample_request():
+    artist="sun ra"
+
+    r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
+    return render_template("sample-request.html", r=r)
+
+
+@app.route("/sample-request-search", methods=["GET", "POST"])
+def sample_request_search():
     
-    return render_template("index.html", parsed_r=parsed_r)
+    # post
+    if request.method == "POST":
+        artist = request.form.get("artist")
+        
+        r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
 
+        # turn string into json
+        r_json = json.loads(r)
 
+        # initialize empty list
+        masters = []
+        
+        # get album title
+        for result in r_json["results"]:
+            masters.append(result["title"])
+
+        return render_template("sample-request-search.html", masters=masters)
+    
+    # get
+    else:
+        return render_template("sample-request-search.html")
+
+@app.route("/sample-marketplace")
+def sample_marketplace():
+
+    listing_id = '2134134359'
+    # r = requests.get("https://api.discogs.com/marketplace/stats/143615").text
+    r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id, CONSUMER_KEY, CONSUMER_SECRET)).text
+
+    return render_template("sample-marketplace.html", r=r)
 
