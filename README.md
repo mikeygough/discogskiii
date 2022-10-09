@@ -7,6 +7,17 @@ discogskiii is a flask applicaiton built using the [discogs api](https://www.dis
 
 ***i'll write a little more as it's built...***
 
+currently supports:
+- search by artist to see their vinyl discography
+
+in development:
+- more than 50 results for the above feature
+- error handling for searches
+- links to sellers
+- historical price information
+
+all data is taken from discogs.com via their api. i <3 you discogs.
+
 ---
 ### Reference:
 
