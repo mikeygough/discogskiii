@@ -1,0 +1,13 @@
+/*add some style!*/
+a, a:visited, a:focus {
+  text-decoration:  none;
+  color:  black;
+}
+
+a:hover {
+  color:  blue;
+}
+
+th {
+  text-align: left;
+}

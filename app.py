@@ -31,14 +31,25 @@ def sample_request_search():
         # turn string into json
         r_json = json.loads(r)
 
-        # initialize empty list
+        # initialize empty for masters
         masters = []
+        uris = []
+        year = []
+        thumb = []
         
         # get album title
         for result in r_json["results"]:
             masters.append(result["title"])
+            uris.append(result["uri"])
+            year.append(result["year"])
+            thumb.append(result["thumb"])
 
-        return render_template("sample-request-search.html", masters=masters)
+        data = list(zip(masters, uris, year, thumb))
+        base_url = 'https://www.discogs.com'
+        print(thumb[0])
+
+        return render_template("sample-request-search.html",
+                               data=data, base_url=base_url)
     
     # get
     else:

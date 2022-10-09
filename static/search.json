@@ -1,6 +1,5 @@
 sample query: https://api.discogs.com/database/search?q=sun ra
 
-
 {
     "pagination":
     {
