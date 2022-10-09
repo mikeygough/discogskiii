@@ -1,0 +1,2364 @@
+{
+    "pagination":
+    {
+        "page": 1,
+        "pages": 4,
+        "per_page": 50,
+        "items": 163,
+        "urls":
+        {
+            "last": "https://api.discogs.com/database/search?artist=sun+ra&type=master&format=vinyl&key=PGGorCeZkZOjtrUJbwsU&secret=QhnCRnPGXZuRszaiqPnseYOgMAwktPCK&page=4&per_page=50",
+            "next": "https://api.discogs.com/database/search?artist=sun+ra&type=master&format=vinyl&key=PGGorCeZkZOjtrUJbwsU&secret=QhnCRnPGXZuRszaiqPnseYOgMAwktPCK&page=2&per_page=50"
+        }
+    },
+    "results":
+    [
+        {
+            "country": "France",
+            "year": "1973",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Atlantic",
+                "Gibus Club"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 143593,
+            "barcode":
+            [
+                "Ⓑ",
+                "SACEM SACD SDRM SGDL"
+            ],
+            "master_id": 143593,
+            "master_url": "https://api.discogs.com/masters/143593",
+            "uri": "/master/143593-Sun-Ra-Live-In-Paris-At-The-Gibus",
+            "catno": "40 540",
+            "title": "Sun Ra - Live In Paris At The \"Gibus\"",
+            "thumb": "https://i.discogs.com/BfLWaZQkECSpIVYk_ANKuALkKZIvkrFikB0Ijlpo61g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/IOT9LAh1Q85bLY56MhJV1ZWm6cJCVjm5Wr7m3f46ovw/rs:fit/g:sm/q:90/h:373/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/143593",
+            "community":
+            {
+                "want": 435,
+                "have": 365
+            }
+        },
+        {
+            "country": "US",
+            "year": "1980",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Philly Jazz",
+                "Philly Jazz Inc.",
+                "Philly Jazz Inc.",
+                "Enterplan",
+                "Leo Feist, Inc.",
+                "All Disc Records, Inc."
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Soul-Jazz"
+            ],
+            "id": 84391,
+            "barcode":
+            [
+                "9791 A N-47",
+                "9791 B N-47",
+                "N-47",
+                "BMI",
+                "ASCAP"
+            ],
+            "master_id": 84391,
+            "master_url": "https://api.discogs.com/masters/84391",
+            "uri": "/master/84391-Sun-Ra-Of-Mythic-Worlds",
+            "catno": "PJ 1007",
+            "title": "Sun Ra - Of Mythic Worlds",
+            "thumb": "https://i.discogs.com/smtC6HszusypuNDgYgnJq_sgLa96CyvEQ7IXlDSiDV0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDQy/MDMtMTMyNzE3MDAz/NS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/kml4urISP_uCea9uuPJ29WbS4r1VxMgf7l2sFzruFtE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDQy/MDMtMTMyNzE3MDAz/NS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84391",
+            "community":
+            {
+                "want": 583,
+                "have": 636
+            }
+        },
+        {
+            "country": "France",
+            "year": "1971",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "Shandar",
+                "Shandar",
+                "Shandar",
+                "RCA",
+                "I.D.N."
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 84370,
+            "barcode":
+            [
+                "SR 10003 A",
+                "SR 10003 B",
+                "D.R.",
+                "Ⓤ"
+            ],
+            "master_id": 84370,
+            "master_url": "https://api.discogs.com/masters/84370",
+            "uri": "/master/84370-Sun-Ra-Nuits-De-La-Fondation-Maeght-Volume-2",
+            "catno": "SR 10 003",
+            "title": "Sun Ra - Nuits De La Fondation Maeght Volume 2",
+            "thumb": "https://i.discogs.com/fHzK4eFHebJrGoN9B2o8dXBl2VwSx_ZRXLzYVsiaUo4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1NDAw/Ni0xMzQ5MjI2NjM3/LTEwODAuanBlZw.jpeg",
+            "cover_image": "https://i.discogs.com/VFZWK_HRJwawvFdujgngHQcIfEfjQs-O9-5lzBEYSAo/rs:fit/g:sm/q:90/h:515/w:512/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1NDAw/Ni0xMzQ5MjI2NjM3/LTEwODAuanBlZw.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84370",
+            "community":
+            {
+                "want": 916,
+                "have": 841
+            }
+        },
+        {
+            "country": "US",
+            "year": "1977",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "Improvising Artists Inc.",
+                "Improvising Artists Inc.",
+                "Improvising Artists Inc.",
+                "Enterplanetary Koncepts",
+                "T.B. Harms, Inc.",
+                "Generation Sound Studios",
+                "Wakefield Manufacturing",
+                "Wakefield Manufacturing"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 222835,
+            "barcode":
+            [
+                "BMI",
+                "(^)",
+                "IAI-373850-A RE-2 #1 (^) 31210 JB",
+                "IAI-373850-B #2 (^) 31210 JB"
+            ],
+            "master_id": 222835,
+            "master_url": "https://api.discogs.com/masters/222835",
+            "uri": "/Sun-Ra-Solo-Piano-Volume-1/master/222835",
+            "catno": "IAI 37.38.50",
+            "title": "Sun Ra - Solo Piano - Volume 1",
+            "thumb": "https://i.discogs.com/ge1kCBF9u4VuTVlVvPUMRQjP6ls9wK8qon7_-Ap_yiE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMDIx/NDQtMTMxMDQ5NjI5/My5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/MM0eB0qmkR3MjcRPi9Je1p2harOudTW21oLVNwGWSFI/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMDIx/NDQtMTMxMDQ5NjI5/My5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/222835",
+            "community":
+            {
+                "want": 507,
+                "have": 546
+            }
+        },
+        {
+            "country": "Europe",
+            "year": "2017",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Compilation"
+            ],
+            "label":
+            [
+                "Strut",
+                "Art Yard",
+                "K7 Music GmbH",
+                "K7 Music GmbH",
+                "Schallplattenfabrik Pallas GmbH",
+                "Schallplattenfabrik Pallas GmbH",
+                "Schallplattenfabrik Pallas GmbH"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Space-Age",
+                "Hard Bop",
+                "Avant-garde Jazz"
+            ],
+            "id": 1173762,
+            "barcode":
+            [
+                "730003314919"
+            ],
+            "master_id": 1173762,
+            "master_url": "https://api.discogs.com/masters/1173762",
+            "uri": "/master/1173762-Sun-Ra-Singles-Volume-2-The-Definitive-45s-Collection-1962-1991",
+            "catno": "STRUT149LP",
+            "title": "Sun Ra - Singles Volume 2 (The Definitive 45s Collection 1962-1991)",
+            "thumb": "https://i.discogs.com/MxQ3dodQZfmX-Ao3HqP9bm3Gu1-axo409lzErwjXBRc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjA1/NjYzLTE0OTU3NDUx/NzctOTI5My5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/HsuAanoZKGBL2Bnn8MJdaCu8E8x2sZTPfyb1mVsJJnc/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjA1/NjYzLTE0OTU3NDUx/NzctOTI5My5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1173762",
+            "community":
+            {
+                "want": 549,
+                "have": 1068
+            }
+        },
+        {
+            "country": "Europe",
+            "year": "2009",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Compilation"
+            ],
+            "label":
+            [
+                "Doxy Music"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Space-Age",
+                "Rhythm & Blues",
+                "Doo Wop",
+                "Easy Listening"
+            ],
+            "id": 880751,
+            "barcode":
+            [
+                "8013252888212"
+            ],
+            "master_id": 880751,
+            "master_url": "https://api.discogs.com/masters/880751",
+            "uri": "/master/880751-Sun-Ra-Medicine-For-A-Nightmare-The-Singles",
+            "catno": "DOX821LP",
+            "title": "Sun Ra - Medicine For A Nightmare: The Singles",
+            "thumb": "https://i.discogs.com/Z5Lk5K9tGiO4LxX8UKkHAvGl8sZ4xq4AP7fINEuWu_w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MzE2/NDMtMTI1NjcyMTAx/NS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/l1J3Pm5hfk2mSc9h1tP1QrOcmb5MhgLXWSIPogJhqdY/rs:fit/g:sm/q:90/h:417/w:417/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MzE2/NDMtMTI1NjcyMTAx/NS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/880751",
+            "community":
+            {
+                "want": 204,
+                "have": 654
+            }
+        },
+        {
+            "country": "US",
+            "year": "1988",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Saturn Research"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz"
+            ],
+            "id": 1660641,
+            "barcode":
+            [
+                "SUN-RA 1-31-88 III",
+                "SUN-RA 1-29-88 II"
+            ],
+            "master_id": 1660641,
+            "master_url": "https://api.discogs.com/masters/1660641",
+            "uri": "/Sun-Ra-Hidden-Fire-I/master/1660641",
+            "catno": "13188III/12988II",
+            "title": "Sun Ra - Hidden Fire I",
+            "thumb": "https://i.discogs.com/apML4Azysy44vTf60iRhgSSAnEtp0mBccbZ5gaIy6pY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMTMz/MTItMTM5MDk2NzU0/Ny00ODk3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/M2Lpb685c5tYSvnw_UZfg59-O_d3rhn08PwoT-NPmLE/rs:fit/g:sm/q:90/h:441/w:461/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMTMz/MTItMTM5MDk2NzU0/Ny00ODk3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1660641",
+            "community":
+            {
+                "want": 248,
+                "have": 47
+            }
+        },
+        {
+            "country": "US",
+            "year": "1974",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Space-Age"
+            ],
+            "id": 263737,
+            "barcode":
+            [],
+            "master_id": 263737,
+            "master_url": "https://api.discogs.com/masters/263737",
+            "uri": "/master/263737-Sun-Ra-The-Antique-Blacks",
+            "catno": "81774",
+            "title": "Sun Ra - The Antique Blacks",
+            "thumb": "https://i.discogs.com/y4l9wVPY9mZKPgsCSm9uMJ_gOO6XtnFUPqvmjMRkYEI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NzY0/MDQtMTQyMjIwNzgw/MC02NDE4LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/WHYt71b4X2P6v-vMx0ydHY-SwXVjSTjgxRAwI01-S8c/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NzY0/MDQtMTQyMjIwNzgw/MC02NDE4LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/263737",
+            "community":
+            {
+                "want": 1813,
+                "have": 1229
+            }
+        },
+        {
+            "country": "US",
+            "year": "1979",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records",
+                "Enterplan"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz",
+                "Funk / Soul"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Soul-Jazz",
+                "Avant-garde Jazz",
+                "Space-Age"
+            ],
+            "id": 876157,
+            "barcode":
+            [
+                "BMI"
+            ],
+            "master_id": 876157,
+            "master_url": "https://api.discogs.com/masters/876157",
+            "uri": "/master/876157-Sun-Ra-Omniverse",
+            "catno": "91379",
+            "title": "Sun Ra - Omniverse",
+            "thumb": "https://i.discogs.com/bIl0ZTrTsFDG5_YeEk19_dFPzMUHYKt9QX6zsH6hMTo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNDI5/NjItMTM5NDQ0MTEy/My05ODg3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/pudwpzS4TvI0pCHIq1Dmf1GLTXkFy4zHhXVEPO-5TqA/rs:fit/g:sm/q:90/h:277/w:276/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNDI5/NjItMTM5NDQ0MTEy/My05ODg3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/876157",
+            "community":
+            {
+                "want": 1719,
+                "have": 695
+            }
+        },
+        {
+            "country": "US",
+            "year": "1979",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records",
+                "Enterplan"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz",
+                "Funk / Soul"
+            ],
+            "style":
+            [
+                "Soul-Jazz",
+                "Free Funk",
+                "Free Jazz",
+                "Jazz-Funk",
+                "Avant-garde Jazz"
+            ],
+            "id": 801700,
+            "barcode":
+            [
+                "72579A",
+                "72579B",
+                "BMI"
+            ],
+            "master_id": 801700,
+            "master_url": "https://api.discogs.com/masters/801700",
+            "uri": "/master/801700-Sun-Ra-Days-Of-Happiness",
+            "catno": "72579",
+            "title": "Sun Ra - Days Of Happiness",
+            "thumb": "https://i.discogs.com/LRqDJNny7FSn46wQ2rD4IImKKRXYUstqrNB2A-TU84Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNDQz/MTEtMTM5NjY5MDM4/Mi0zOTYyLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/6c1MVImwvjKLCYcRr5-OZAvL2UQImZl3b09eXruBG44/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNDQz/MTEtMTM5NjY5MDM4/Mi0zOTYyLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/801700",
+            "community":
+            {
+                "want": 2361,
+                "have": 604
+            }
+        },
+        {
+            "country": "US",
+            "year": "1985",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Saturn Research"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 350508,
+            "barcode":
+            [],
+            "master_id": 350508,
+            "master_url": "https://api.discogs.com/masters/350508",
+            "uri": "/master/350508-Sun-Ra-Stars-That-Shine-Darkly-Hiroshima",
+            "catno": "11-83",
+            "title": "Sun Ra - Stars That Shine Darkly / Hiroshima",
+            "thumb": "https://i.discogs.com/sfw6ezHTHC_rw3wUsjgkjurgiRWP_Y4eIyede9uq9HA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjEw/NDMtMTMyNzMzMTAw/Ny5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/duV0jrEzyvHli-zZIMe2gssdGYskmgnV9SSIsvadiBQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjEw/NDMtMTMyNzMzMTAw/Ny5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/350508",
+            "community":
+            {
+                "want": 867,
+                "have": 331
+            }
+        },
+        {
+            "country": "US",
+            "year": "1974",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records",
+                "El Saturn Records",
+                "Enterplanetary Koncepts",
+                "Enterplan"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Avant-garde Jazz"
+            ],
+            "id": 1485503,
+            "barcode":
+            [
+                "BMI",
+                "Ihnfinity Inc. 9691A",
+                "9691B Ihnfinity Inc."
+            ],
+            "master_id": 1485503,
+            "master_url": "https://api.discogs.com/masters/1485503",
+            "uri": "/Sun-Ra-Monorails-And-Satellites-Volume-II/master/1485503",
+            "catno": "ESR-9691",
+            "title": "Sun Ra - Monorails And Satellites Volume II",
+            "thumb": "https://i.discogs.com/pGMHcWhKPsGZJvi4GHyHK2afjqZjhvuB4DwjmHmTg8o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyMDI5/MzMtMTQ3NzM2NzA3/Mi02MTk2LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/TpLvI-I9WW8ufY-EP5p4ZWi6tlLjWzFfvDdv7__W-VU/rs:fit/g:sm/q:90/h:388/w:385/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyMDI5/MzMtMTQ3NzM2NzA3/Mi02MTk2LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1485503",
+            "community":
+            {
+                "want": 498,
+                "have": 57
+            }
+        },
+        {
+            "country": "UK",
+            "year": "1982",
+            "format":
+            [
+                "Vinyl",
+                "12\"",
+                "Maxi-Single",
+                "45 RPM"
+            ],
+            "label":
+            [
+                "Y Records",
+                "Y Records",
+                "Variety Recording Studio",
+                "Enterplan",
+                "Chappell"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz",
+                "Contemporary Jazz",
+                "Big Band"
+            ],
+            "id": 1927188,
+            "barcode":
+            [
+                "RA-1 A",
+                "RA-1 B",
+                "BMI"
+            ],
+            "master_id": 1927188,
+            "master_url": "https://api.discogs.com/masters/1927188",
+            "uri": "/master/1927188-Sun-Ra-Nuclear-War",
+            "catno": "RA 1",
+            "title": "Sun Ra - Nuclear War",
+            "thumb": "https://i.discogs.com/nOSA6iJ4k6_YrKBOKtSIyEIakBRQ36mLn5MvS8YqIi0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4Mzk5/MC0xMzAwMjExMDE5/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/0fmo4h--PMeP2-AYmkmPRalmycu9wCjDY0MURPth2WE/rs:fit/g:sm/q:90/h:450/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4Mzk5/MC0xMzAwMjExMDE5/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1927188",
+            "community":
+            {
+                "want": 687,
+                "have": 315
+            }
+        },
+        {
+            "country": "US",
+            "year": "1973",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Saturn Research",
+                "Enterplan",
+                "Jones Music",
+                "Hansen Pub. Co."
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz",
+                "Free Improvisation"
+            ],
+            "id": 143592,
+            "barcode":
+            [
+                "SR-509-E Ihnfinity Inc. A.A.",
+                "SR-509-B Ihnfinity Inc. A.A.",
+                "SR-509-A Ihnfinity Inc. A.A.",
+                "BMI"
+            ],
+            "master_id": 143592,
+            "master_url": "https://api.discogs.com/masters/143592",
+            "uri": "/master/143592-Sun-Ra-Monorails-And-Satellites",
+            "catno": "SR-509",
+            "title": "Sun Ra - Monorails And Satellites",
+            "thumb": "https://i.discogs.com/5UC73nTIr_xCP_IhPMROzGOgHBbiH4KJFDAp2z0isMA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNTQx/ODAtMTQzMjYzNjc1/MC00NTE3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/dfSPYzAKskNVFLlfndv4Gdf-r0VMvyczp7aa7se2dUc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNTQx/ODAtMTQzMjYzNjc1/MC00NTE3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/143592",
+            "community":
+            {
+                "want": 1155,
+                "have": 863
+            }
+        },
+        {
+            "country": "Europe",
+            "year": "2013",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Compilation"
+            ],
+            "label":
+            [
+                "DOL",
+                "DOL"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Space-Age",
+                "Big Band",
+                "Bop",
+                "Doo Wop"
+            ],
+            "id": 1456111,
+            "barcode":
+            [
+                "0889397310400"
+            ],
+            "master_id": 1456111,
+            "master_url": "https://api.discogs.com/masters/1456111",
+            "uri": "/Sun-Ra-The-Saturn-Singles-Vol-1-1954-1958-/master/1456111",
+            "catno": "DOL1040HG",
+            "title": "Sun Ra - The Saturn Singles Vol. 1 1954-1958 ",
+            "thumb": "https://i.discogs.com/DUbX7WmWi1lQzKJO7q3bzBuFNS8df81dLp823-4DUfA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODAw/NDUzLTE1NDIyOTgy/MjktODU4OS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/H-S7uqhNBmrSc9fP6vA6rIh0z_H6rSSr9Ov5_CJFMnQ/rs:fit/g:sm/q:90/h:435/w:432/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODAw/NDUzLTE1NDIyOTgy/MjktODU4OS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1456111",
+            "community":
+            {
+                "want": 122,
+                "have": 252
+            }
+        },
+        {
+            "country": "US",
+            "year": "1973",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Blue Thumb Records",
+                "Streeterville Studios",
+                "The Village Recorder"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Space-Age"
+            ],
+            "id": 84364,
+            "barcode":
+            [],
+            "master_id": 84364,
+            "master_url": "https://api.discogs.com/masters/84364",
+            "uri": "/master/84364-Sun-Ra-Space-Is-The-Place",
+            "catno": "BTS 41",
+            "title": "Sun Ra - Space Is The Place",
+            "thumb": "https://i.discogs.com/JJunJFg4DMCa99SjUUeOvhec-le1VZBsrU84MzF4vzQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjk0/OTMtMTQxNjc3NTUx/Ny0yMTY0LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/s3LGSspgqvJ3-JB9oIC9125h5kNU2tl40doutYBn_eA/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjk0/OTMtMTQxNjc3NTUx/Ny0yMTY0LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84364",
+            "community":
+            {
+                "want": 7178,
+                "have": 5050
+            }
+        },
+        {
+            "country": "US",
+            "year": "1985",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records",
+                "Enterplan"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 842283,
+            "barcode":
+            [
+                "BMI",
+                "9-1213-85-A SUN-RA VARIETY",
+                "9-1213-85-B SUN-RA VARIETY"
+            ],
+            "master_id": 842283,
+            "master_url": "https://api.discogs.com/masters/842283",
+            "uri": "/Sun-Ra-Outer-Reach-Intensity-Energy-Stars-That-Shine-Darkly-Vol-2/master/842283",
+            "catno": "9-1213-85",
+            "title": "Sun Ra - Outer Reach Intensity-Energy (Stars That Shine Darkly, Vol. 2)",
+            "thumb": "https://i.discogs.com/SguoUO2MGZohta17-LYjKjLP-swwQ_2fD_Vbl840wC0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzAz/MDMtMTQzMjk4NzA0/My03NDg0LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/X38DLWC5mMkngtVcOVhfiFZWl7dYJLByWIXCod1Jduo/rs:fit/g:sm/q:90/h:400/w:394/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzAz/MDMtMTQzMjk4NzA0/My03NDg0LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/842283",
+            "community":
+            {
+                "want": 0,
+                "have": 0
+            }
+        },
+        {
+            "country": "US",
+            "year": "1973",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Saturn Records",
+                "Robbins Music Corp.",
+                "Enterplanetary Koncepts",
+                "Harms, Inc.",
+                "Warner Bros."
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz",
+                "Big Band"
+            ],
+            "id": 794920,
+            "barcode":
+            [
+                "485-A CVR",
+                "485-B CUR",
+                "BMI",
+                "ASCAP"
+            ],
+            "master_id": 794920,
+            "master_url": "https://api.discogs.com/masters/794920",
+            "uri": "/Sun-Ra-Dreams-Come-True/master/794920",
+            "catno": "485",
+            "title": "Sun Ra - Dreams Come True",
+            "thumb": "https://i.discogs.com/KrtOLuqcPW1iPp5eTaA0sXIw2-qWXUNDI0koLxk8R_U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2Mjkz/NDEtMTQ4ODA1MDE3/Mi0zOTQyLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/os9JzwM1y2cTGm4V0Y_5N4gmr_QAhbRWm-rj8nQZzPo/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2Mjkz/NDEtMTQ4ODA1MDE3/Mi0zOTQyLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/794920",
+            "community":
+            {
+                "want": 934,
+                "have": 100
+            }
+        },
+        {
+            "country": "US",
+            "year": "1957",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Transition",
+                "Universal Recording Studio"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Post Bop"
+            ],
+            "id": 84360,
+            "barcode":
+            [
+                "TRLP10A SR / 5N",
+                "TRLP10B SR / 5N"
+            ],
+            "master_id": 84360,
+            "master_url": "https://api.discogs.com/masters/84360",
+            "uri": "/master/84360-Sun-Ra-Jazz-By-Sun-Ra-Vol-1",
+            "catno": "trlp 10",
+            "title": "Sun Ra - Jazz By Sun Ra Vol. 1",
+            "thumb": "https://i.discogs.com/hv4y1pbBF3EEP0iSvdWVzlWQZLjrZvgfkap-3D6ndVQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNzE5/Ny0xNDYxNzE2MzI1/LTE2NDYuanBlZw.jpeg",
+            "cover_image": "https://i.discogs.com/-h4tD5YcHi8lwb_DANOA-1Uj_dMeGjT4IgkHewecPm4/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNzE5/Ny0xNDYxNzE2MzI1/LTE2NDYuanBlZw.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84360",
+            "community":
+            {
+                "want": 4945,
+                "have": 2855
+            }
+        },
+        {
+            "country": "US",
+            "year": "1966",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "ESP Disk"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 84396,
+            "barcode":
+            [
+                "967 DBH ESPS 1045 A",
+                "ANM 967 DBH ESPS 1045 B"
+            ],
+            "master_id": 84396,
+            "master_url": "https://api.discogs.com/masters/84396",
+            "uri": "/master/84396-Sun-Ra-Nothing-Is",
+            "catno": "ESP-DISK´ 1045",
+            "title": "Sun Ra - Nothing Is...",
+            "thumb": "https://i.discogs.com/c_S1Uij0WqgGbACoz7OdsRM9ryoYIf42yEmgK7ME1_s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwOTE0/NjMtMTMyNjkyMjM3/My5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/CyUx5rUkTSqt-PDP1KFFCdtKIiAkCfhNEpI5z7Mwa78/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwOTE0/NjMtMTMyNjkyMjM3/My5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84396",
+            "community":
+            {
+                "want": 3396,
+                "have": 2543
+            }
+        },
+        {
+            "country": "Netherlands",
+            "year": "2011",
+            "format":
+            [
+                "Vinyl",
+                "12\"",
+                "45 RPM"
+            ],
+            "label":
+            [
+                "Kindred Spirits",
+                "Art Yard",
+                "Brandenburg Mastering",
+                "Schnittstelle",
+                "Art Yard Ltd.",
+                "Art Yard Ltd.",
+                "Rush Hour Distribution"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [],
+            "id": 391044,
+            "barcode":
+            [
+                "LC18762",
+                "KSAY-MH 01 A₂ andreas at schnittstelle ",
+                "KSAY-MH 01 B₂ andreas at schnittstelle "
+            ],
+            "master_id": 391044,
+            "master_url": "https://api.discogs.com/masters/391044",
+            "uri": "/Sun-Ra-The-Mike-Huckaby-Reel-To-Reel-Edits-Vol-1/master/391044",
+            "catno": "KSAY-MH01",
+            "title": "Sun Ra - The Mike Huckaby Reel-To-Reel Edits Vol. 1",
+            "thumb": "https://i.discogs.com/1WTkQuWCDjLb9St1dMbeUJCR4uODdqI1Di1rjw2GG9k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzIz/MTktMTMyMzM1NDkz/NC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/GcOjFO3VzAeU89A5evS9n2_CBwON-8XMw-J_wFbG8R8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzIz/MTktMTMyMzM1NDkz/NC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/391044",
+            "community":
+            {
+                "want": 702,
+                "have": 387
+            }
+        },
+        {
+            "country": "US",
+            "year": "2018",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "Modern Harmonic",
+                "Third Man Pressing"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz",
+                "Space-Age"
+            ],
+            "id": 1435931,
+            "barcode":
+            [
+                "090771808219"
+            ],
+            "master_id": 1435931,
+            "master_url": "https://api.discogs.com/masters/1435931",
+            "uri": "/Sun-Ra-Crystal-Spears/master/1435931",
+            "catno": "MH-8082",
+            "title": "Sun Ra - Crystal Spears",
+            "thumb": "https://i.discogs.com/RjPOdw_K8tKPTwnFt17xlvfXnGPYxhoSL6ZWwYCkBk0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgy/MjcyLTE1Mzg3NTk2/NzEtMjczMS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/yLhGYUAXgIBxMxDuq6S5HkJZackG9ZXNz1G5IWLQQoY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgy/MjcyLTE1Mzg3NTk2/NzEtMjczMS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1435931",
+            "community":
+            {
+                "want": 0,
+                "have": 0
+            }
+        },
+        {
+            "country": "US",
+            "year": "1966",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Mono"
+            ],
+            "label":
+            [
+                "Saturn Research",
+                "Enterplanetary Koncepts"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 143605,
+            "barcode":
+            [
+                "B-711-A -BP- Saturn",
+                "B-711-B -BP- Saturn",
+                "BMI"
+            ],
+            "master_id": 143605,
+            "master_url": "https://api.discogs.com/masters/143605",
+            "uri": "/master/143605-Sun-Ra-The-Magic-City",
+            "catno": "LPB - 711",
+            "title": "Sun Ra - The Magic City",
+            "thumb": "https://i.discogs.com/niShqfADxcTh9Jz5hDCFxsaqYe1Y5RpVa_DWJov-ptQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjY4/MTItMTMyNjkyMTkx/Mi5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/1CJHjAwD1i6CKTMemtT1FBn6jmzYKoX-S8rh142W9j4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjY4/MTItMTMyNjkyMTkx/Mi5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/143605",
+            "community":
+            {
+                "want": 4010,
+                "have": 3257
+            }
+        },
+        {
+            "country": "US",
+            "year": "1980",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "Rounder Records",
+                "Masterdisk"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Electronic",
+                "Jazz"
+            ],
+            "style":
+            [
+                "Big Band",
+                "Contemporary Jazz",
+                "Experimental"
+            ],
+            "id": 143595,
+            "barcode":
+            [
+                "ROU-3035-A #5 Ů36455",
+                "ROU-3035-B #4 Ů36455",
+                "MASTERDISK@"
+            ],
+            "master_id": 143595,
+            "master_url": "https://api.discogs.com/masters/143595",
+            "uri": "/master/143595-Sun-Ra-Strange-Celestial-Road",
+            "catno": "3035",
+            "title": "Sun Ra - Strange Celestial Road",
+            "thumb": "https://i.discogs.com/OTHCR45DctVMMAJrUp0YeW2Q3XbGw9Ir6h7EH28R1ik/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NjYy/MTUtMTU3MjkwMzEw/OS0xOTk5LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/UeZBFX55KV_hZdugUmD4w2QbHu9-Jeb1sFp0lWrIaCU/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NjYy/MTUtMTU3MjkwMzEw/OS0xOTk5LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/143595",
+            "community":
+            {
+                "want": 1322,
+                "have": 1600
+            }
+        },
+        {
+            "country": "US",
+            "year": "1962",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Mono"
+            ],
+            "label":
+            [
+                "Savoy Records",
+                "Medallion Studio",
+                "Atomic Linotypers"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Hard Bop",
+                "Space-Age",
+                "Modal"
+            ],
+            "id": 84411,
+            "barcode":
+            [],
+            "master_id": 84411,
+            "master_url": "https://api.discogs.com/masters/84411",
+            "uri": "/master/84411-Sun-Ra-The-Futuristic-Sounds-Of-Sun-Ra",
+            "catno": "MG-12169",
+            "title": "Sun Ra - The Futuristic Sounds Of Sun Ra",
+            "thumb": "https://i.discogs.com/eSKj12jYSL4CHIpaUAK1wx04S-pmCn6-N90of6X5254/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjY4/MDMyLTE1OTU1NzUx/ODAtNjM2NS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/__W9hfEta8lfiTklL5gTYpTfxiCNEvgKmapLTq8rvtM/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjY4/MDMyLTE1OTU1NzUx/ODAtNjM2NS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84411",
+            "community":
+            {
+                "want": 6503,
+                "have": 2727
+            }
+        },
+        {
+            "country": "US",
+            "year": "1966",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "ESP Disk",
+                "United International",
+                "RLA Sound Studios"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 84381,
+            "barcode":
+            [
+                "ASCAP"
+            ],
+            "master_id": 84381,
+            "master_url": "https://api.discogs.com/masters/84381",
+            "uri": "/master/84381-Sun-Ra-The-Heliocentric-Worlds-Of-Sun-Ra-Volume-2",
+            "catno": "1017",
+            "title": "Sun Ra - The Heliocentric Worlds Of Sun Ra, Volume 2",
+            "thumb": "https://i.discogs.com/VQJyrSM15WITAU3bgcqNbYQFm4ROGKLPasDR82sOUgY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzMDYw/Ni0xMzI2OTIyNTgy/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/1enBDOHvnbndNDXeJsR6limcHI_Ut6DcrlyY_rxDXhw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzMDYw/Ni0xMzI2OTIyNTgy/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84381",
+            "community":
+            {
+                "want": 4825,
+                "have": 3389
+            }
+        },
+        {
+            "country": "US",
+            "year": "1973",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo",
+                "Quadraphonic"
+            ],
+            "label":
+            [
+                "Impulse!",
+                "ABC Records",
+                "Saturn Research",
+                "ABC Records, Inc.",
+                "ABC Records, Inc.",
+                "Enterplanetary Koncepts",
+                "El Saturn Studio",
+                "Westlake Audio",
+                "Columbia Records Pressing Plant, Terre Haute"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Space-Age"
+            ],
+            "id": 981535,
+            "barcode":
+            [
+                "BMI",
+                "AS-9255-A",
+                "AS-9255-B",
+                "IT AS-9255 A 3 B",
+                "TI AS-9255 B 3 B6",
+                "T1 AS-9255-A ② #",
+                "T1 AS09255-B ①",
+                "1T AS-9255 A 3 D1",
+                "T1 AS-9255 B ①",
+                "IT AS - 9255 A ③ ( )",
+                "TI AS - 9255 B ③ Λ"
+            ],
+            "master_id": 981535,
+            "master_url": "https://api.discogs.com/masters/981535",
+            "uri": "/master/981535-Sun-Ra-Astro-Black",
+            "catno": "AS-9255",
+            "title": "Sun Ra - Astro Black",
+            "thumb": "https://i.discogs.com/kUn4fwEC3sHyYPHVvm_xNpDr-DonJoD6HCevl8yjVtU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5NjY3/MS0xMjU5NjE0Mzc5/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/K-C_bXZWGMP0UeoR8jcAX4lK50fBiM4R77GCJRAa5x0/rs:fit/g:sm/q:90/h:475/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5NjY3/MS0xMjU5NjE0Mzc5/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/981535",
+            "community":
+            {
+                "want": 2251,
+                "have": 2213
+            }
+        },
+        {
+            "country": "US",
+            "year": "1978",
+            "format":
+            [
+                "Vinyl",
+                "7\"",
+                "45 RPM",
+                "Single"
+            ],
+            "label":
+            [
+                "El Saturn Records"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [],
+            "id": 1335996,
+            "barcode":
+            [],
+            "master_id": 1335996,
+            "master_url": "https://api.discogs.com/masters/1335996",
+            "uri": "/Sun-Ra-Rough-House-Blues/master/1335996",
+            "catno": "51879",
+            "title": "Sun Ra - Rough House Blues",
+            "thumb": "https://i.discogs.com/bk8A1onSggVazjp-xwn-onuK6UrZkj3AQWpCPwt7FWc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNDM3/NTgtMTQ1NzgyOTA3/Mi01ODk3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/ffLOTUSLM7b2ak6ozirf0wgrYmOsEfxcn6f7j3B7BUU/rs:fit/g:sm/q:90/h:610/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNDM3/NTgtMTQ1NzgyOTA3/Mi01ODk3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1335996",
+            "community":
+            {
+                "want": 225,
+                "have": 10
+            }
+        },
+        {
+            "country": "Netherlands",
+            "year": "1969",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Reissue",
+                "Stereo"
+            ],
+            "label":
+            [
+                "Fontana",
+                "RLA Sound Studios"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 214226,
+            "barcode":
+            [
+                "B.I.E.M."
+            ],
+            "master_id": 214226,
+            "master_url": "https://api.discogs.com/masters/214226",
+            "uri": "/Sun-Ra-The-Heliocentric-Worlds-Of-Sun-Ra-II/master/214226",
+            "catno": "858 107 FPY",
+            "title": "Sun Ra - The Heliocentric Worlds Of Sun Ra II",
+            "thumb": "https://i.discogs.com/8_I0a_GYAIWYk1_HpiVg2gKNhZbdeRbfLNmUBR5Kh24/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDk3/NzYtMTI2NDk1NTYx/Ny5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/fxzhiMciTkDERg_qE_eV2RlW_7TwbaLvQtV6P88Sn1w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDk3/NzYtMTI2NDk1NTYx/Ny5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/214226",
+            "community":
+            {
+                "want": 0,
+                "have": 0
+            }
+        },
+        {
+            "country": "Netherlands",
+            "year": "2011",
+            "format":
+            [
+                "Vinyl",
+                "12\"",
+                "33 ⅓ RPM",
+                "45 RPM"
+            ],
+            "label":
+            [
+                "Kindred Spirits",
+                "Art Yard",
+                "Enterplanetary Koncepts",
+                "Rush Hour Distribution",
+                "Brandenburg Mastering",
+                "Art Yard Ltd.",
+                "Art Yard Ltd.",
+                "Enterplanetary Koncepts",
+                "Enterplanetary Koncepts"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Space-Age",
+                "Avant-garde Jazz"
+            ],
+            "id": 391134,
+            "barcode":
+            [
+                "LC18762",
+                "KSAY - MH - 02 A",
+                "KSAY - MH - 02 B"
+            ],
+            "master_id": 391134,
+            "master_url": "https://api.discogs.com/masters/391134",
+            "uri": "/Sun-Ra-The-Mike-Huckaby-Reel-To-Reel-Edits-Vol-2/master/391134",
+            "catno": "KSAY-MH02",
+            "title": "Sun Ra - The Mike Huckaby Reel-To-Reel Edits Vol. 2",
+            "thumb": "https://i.discogs.com/SUFYeg097ZAjCHK7v6lvJ0B-_mRkeGHfzcHUANpgAtM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzMw/MzAtMTYxMTM1MDQw/Ni0zNTM4LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/iAzOwZuVtzUG9qx1zYMngVf48H2WjIStENFE3XhtDpY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzMw/MzAtMTYxMTM1MDQw/Ni0zNTM4LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/391134",
+            "community":
+            {
+                "want": 582,
+                "have": 236
+            }
+        },
+        {
+            "country": "USA & Europe",
+            "year": "2016",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Compilation"
+            ],
+            "label":
+            [
+                "Strut",
+                "Art Yard"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [],
+            "id": 1321321,
+            "barcode":
+            [
+                "730003314810 "
+            ],
+            "master_id": 1321321,
+            "master_url": "https://api.discogs.com/masters/1321321",
+            "uri": "/Sun-Ra-Singles-Volume-1-The-Definitive-45s-Collection-1952-1961/master/1321321",
+            "catno": "STRUT148LP",
+            "title": "Sun Ra - Singles Volume 1: The Definitive 45s Collection 1952-1961",
+            "thumb": "https://i.discogs.com/y-GY3engUTWY-4h7K0jJmjOMjC_rsvQegJO_yfQeaCg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDU5/NDktMTQ4MDAwMjE5/OC00MTYwLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/tQKOpatUpmdWx6BZPkbjLRf1i3YsYAcolUT9airWlRU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDU5/NDktMTQ4MDAwMjE5/OC00MTYwLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1321321",
+            "community":
+            {
+                "want": 798,
+                "have": 1524
+            }
+        },
+        {
+            "country": "US",
+            "year": "1985",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Saturn Research",
+                "Enterplan"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz",
+                "Free Jazz",
+                "Big Band"
+            ],
+            "id": 842293,
+            "barcode":
+            [
+                "SUN-RA 101485A",
+                "SUN-RA 101485B",
+                "BMI"
+            ],
+            "master_id": 842293,
+            "master_url": "https://api.discogs.com/masters/842293",
+            "uri": "/Sun-Ra-When-Spaceships-Appear/master/842293",
+            "catno": "101485",
+            "title": "Sun Ra - When Spaceships Appear",
+            "thumb": "https://i.discogs.com/QhAn0i9GqnOv4Uwmhjzi24iLNvE8Qao5U9c1cXSt--k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NjA2/NjgtMTM2ODU1MzQ2/MC0xOTQ3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/zPkHLM7_5RX5cw8T3MpBI3z_VYOn5QsABVuOA8qUirU/rs:fit/g:sm/q:90/h:406/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NjA2/NjgtMTM2ODU1MzQ2/MC0xOTQ3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/842293",
+            "community":
+            {
+                "want": 721,
+                "have": 104
+            }
+        },
+        {
+            "country": "US",
+            "year": "1988",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Saturn Research"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz"
+            ],
+            "id": 1368841,
+            "barcode":
+            [
+                "SUN RA 13088A VARIETY",
+                "SUN RA 12988B VARIETY"
+            ],
+            "master_id": 1368841,
+            "master_url": "https://api.discogs.com/masters/1368841",
+            "uri": "/Sun-Ra-Hidden-Fire-Volume-2/master/1368841",
+            "catno": "13088A/12988B",
+            "title": "Sun Ra - Hidden Fire (Volume 2)",
+            "thumb": "https://i.discogs.com/ErA7dUCVhAln8UKvzqcnwFwn9NzSVD-xnqlRjel8Rcc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Njcx/NzUtMTM1MDg2MzM5/NC0yOTk1LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/RSiLSMXoMessTwgLcNTWF7yr8hGrxBAa44xsgMFAqqk/rs:fit/g:sm/q:90/h:472/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Njcx/NzUtMTM1MDg2MzM5/NC0yOTk1LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1368841",
+            "community":
+            {
+                "want": 263,
+                "have": 42
+            }
+        },
+        {
+            "country": "US",
+            "year": "1983",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records",
+                "Enterplanetary Koncepts"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Avant-garde Jazz",
+                "Big Band"
+            ],
+            "id": 842309,
+            "barcode":
+            [
+                "BMI",
+                "SUN-RA SATURN 9 1983-220 A",
+                "SUN-RA SATURN-9 1983-220 B"
+            ],
+            "master_id": 842309,
+            "master_url": "https://api.discogs.com/masters/842309",
+            "uri": "/master/842309-Sun-Ra-Ra-To-The-Rescue",
+            "catno": "Saturn IX/1983-220",
+            "title": "Sun Ra - Ra To The Rescue",
+            "thumb": "https://i.discogs.com/W7oXdrag-dtbcljeiJ78cNyx2CD__Rrmy3a8-cXOeVg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTYw/OTAtMTMwNDQ3MjY1/NS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/gWzlCMR97aKfdpCrBBchn3xlbOQiOIr61uvR5UPpB5o/rs:fit/g:sm/q:90/h:280/w:278/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTYw/OTAtMTMwNDQ3MjY1/NS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/842309",
+            "community":
+            {
+                "want": 1001,
+                "have": 266
+            }
+        },
+        {
+            "country": "France",
+            "year": "1976",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Cobra",
+                "Cobra",
+                "Sonopresse",
+                "Pathé Marconi EMI, Chatou",
+                "Pathé Marconi EMI, Chatou",
+                "Montreuil Offset",
+                "Studio Hautefeuille"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 84375,
+            "barcode":
+            [
+                "SACEM SACD SDRM SGDL",
+                "Ⓨ",
+                "yPartx 83.068",
+                "yPartx 83.068",
+                "YPARTX 83068 I M6 314607 2",
+                "COB3701A",
+                "YPARTX 83069 I M6 314608 2",
+                "COB3701 B"
+            ],
+            "master_id": 84375,
+            "master_url": "https://api.discogs.com/masters/84375",
+            "uri": "/master/84375-Sun-Ra-Cosmos",
+            "catno": "COB 37001",
+            "title": "Sun Ra - Cosmos",
+            "thumb": "https://i.discogs.com/Irugt-qlBc9WIZY74Ox955VZrUwck7e9Gvmnv1l7t0s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjc3/MDUtMTE5MzA5NDYy/OS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/C98CovBK05Opkur0YK8kIy2mYpO4gnj4CDuqgkImIjs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjc3/MDUtMTE5MzA5NDYy/OS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84375",
+            "community":
+            {
+                "want": 2542,
+                "have": 2393
+            }
+        },
+        {
+            "country": "UK",
+            "year": "2018",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Strut",
+                "Art Yard",
+                "K7 Music GmbH",
+                "Sun Ra LLC",
+                "K7 Music GmbH",
+                "Enterplanetary Koncepts",
+                "WXPN Performance Studio",
+                "TechnologyWorks"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Big Band"
+            ],
+            "id": 1331422,
+            "barcode":
+            [
+                "BMI",
+                "730003316616",
+                "7 30003 31661 6"
+            ],
+            "master_id": 1331422,
+            "master_url": "https://api.discogs.com/masters/1331422",
+            "uri": "/master/1331422-Sun-Ra-Of-Abstract-Dreams",
+            "catno": "STRUT166LP",
+            "title": "Sun Ra - Of Abstract Dreams",
+            "thumb": "https://i.discogs.com/XuG7YMlC1JmV4fV7s8g0whGZntbznt2U8LtAh1H828I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNzE3/MTY5LTE1MjExODc1/NDktNjA2NC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/8q0-G_BWUUvZqFSZY4TtkUG29e2SN2DnhuagFtGQz9A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNzE3/MTY5LTE1MjExODc1/NDktNjA2NC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1331422",
+            "community":
+            {
+                "want": 236,
+                "have": 506
+            }
+        },
+        {
+            "country": "US",
+            "year": "1981",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Space-Age"
+            ],
+            "id": 1054116,
+            "barcode":
+            [
+                "10-4-80 A",
+                "12-4-80 B"
+            ],
+            "master_id": 1054116,
+            "master_url": "https://api.discogs.com/masters/1054116",
+            "uri": "/Sun-Ra-Aurora-Borealis/master/1054116",
+            "catno": "10480 / 12480",
+            "title": "Sun Ra - Aurora Borealis",
+            "thumb": "https://i.discogs.com/6TlRta-sg5_vt2S7EvC884HPolDqCUv7QUovCFh28Gg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyMjYz/NTEtMTM4ODA4MzM3/OS05NTg4LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/Yb8bBTpBOrbD6ZtsdG8-7n5otxuK5HtGrptJPYS0mwM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyMjYz/NTEtMTM4ODA4MzM3/OS05NTg4LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1054116",
+            "community":
+            {
+                "want": 478,
+                "have": 82
+            }
+        },
+        {
+            "country": "US",
+            "year": "2014",
+            "format":
+            [
+                "Vinyl",
+                "7\"",
+                "45 RPM",
+                "Single",
+                "Limited Edition",
+                "Numbered"
+            ],
+            "label":
+            [
+                "Kicks Books"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz",
+                "Non-Music"
+            ],
+            "style":
+            [
+                "Spoken Word"
+            ],
+            "id": 1075635,
+            "barcode":
+            [
+                "NR-45-1901-A",
+                "NR-45-1901-B"
+            ],
+            "master_id": 1075635,
+            "master_url": "https://api.discogs.com/masters/1075635",
+            "uri": "/Sun-Ra-Sun-Ra-Centennial-1914-2014-Prophetika-Memorial-Souvenir/master/1075635",
+            "catno": "1901",
+            "title": "Sun Ra - Sun Ra Centennial 1914-2014 - Prophetika Memorial Souvenir",
+            "thumb": "https://i.discogs.com/Cm7DPfMXJpfkF2vTtjLeFmFsnATq5O8pulgtg89Wuaw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NzIx/MDgtMTQwMjIzNDg1/MC01NDg3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/h0OyF0k_qNHDU6P97AAXYT4cCfWkbjAKPi60scjZUxY/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NzIx/MDgtMTQwMjIzNDg1/MC01NDg3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1075635",
+            "community":
+            {
+                "want": 78,
+                "have": 84
+            }
+        },
+        {
+            "country": "Unknown",
+            "year": "2020",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Reissue",
+                "Vinyl",
+                "LP",
+                "Album",
+                "Reissue",
+                "Vinyl",
+                "LP",
+                "Album",
+                "Reissue",
+                "Vinyl",
+                "LP",
+                "Album",
+                "Vinyl",
+                "LP",
+                "Album",
+                "Box Set",
+                "Compilation",
+                "Limited Edition"
+            ],
+            "label":
+            [
+                "Strut",
+                "Art Yard",
+                "K7 Music GmbH",
+                "Sun Ra LLC",
+                "Sun Ra LLC",
+                "TechnologyWorks",
+                "Ballon Theatre, Cairo",
+                "House Of Hartmut Geerken"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Avant-garde Jazz"
+            ],
+            "id": 1842295,
+            "barcode":
+            [
+                "4 062548 007428",
+                "4 062548 008289",
+                "4 062548 008296",
+                "4 062548 008302",
+                "STRUT227LP",
+                "STRUT228LP",
+                "STRUT229LP",
+                "STRUT209LPBLP4",
+                "STRUT209LPBLP5",
+                "LC 07306"
+            ],
+            "master_id": 1842295,
+            "master_url": "https://api.discogs.com/masters/1842295",
+            "uri": "/master/1842295-Sun-Ra-Egypt-1971",
+            "catno": "STRUT209LPB",
+            "title": "Sun Ra - Egypt 1971",
+            "thumb": "https://i.discogs.com/ErYo5Ef-zgSG72HYPcrHjfE3kRSeux06qmYM4SRccJw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTc5/Nzg4LTE2MDAyODAw/NzAtMjQ0MC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/hH6hUEsf_37KMBLdJFbSAJjjjUp8Zn_xoqgVHgEuYFY/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTc5/Nzg4LTE2MDAyODAw/NzAtMjQ0MC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1842295",
+            "community":
+            {
+                "want": 556,
+                "have": 775
+            }
+        },
+        {
+            "country": "US",
+            "year": "2017",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Vinyl",
+                "LP",
+                "Vinyl",
+                "LP",
+                "All Media",
+                "Compilation",
+                "Limited Edition",
+                "Remastered",
+                "Stereo",
+                "Mono"
+            ],
+            "label":
+            [
+                "Modern Harmonic",
+                "Sundazed Studios",
+                "Third Man Pressing",
+                "Cohearent Audio"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 1273193,
+            "barcode":
+            [
+                "090771801210",
+                "MH-8012A KPG@CA",
+                "MH-8012B KPG@CA",
+                "MH-8012C KPG@CA",
+                "MH-8012D KPG@CA",
+                "MH-8012E KPG@CA",
+                "MH-8012F KPG@CA"
+            ],
+            "master_id": 1273193,
+            "master_url": "https://api.discogs.com/masters/1273193",
+            "uri": "/master/1273193-Sun-Ra-Exotica",
+            "catno": "MH-8012",
+            "title": "Sun Ra - Exotica",
+            "thumb": "https://i.discogs.com/f-O266l06jjcRLlMg_bkrFG3AIu5PIpwhyvxd-Nchqg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTkw/MDY0LTE1MTE1NTAx/MTAtNzAzOC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/yCTgkrclUk5dD9RTK5mBpz3cRzaIj5PTIEOPVEyC2Bw/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTkw/MDY0LTE1MTE1NTAx/MTAtNzAzOC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1273193",
+            "community":
+            {
+                "want": 664,
+                "have": 638
+            }
+        },
+        {
+            "country": "US",
+            "year": "1978",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "Philly Jazz",
+                "Philly Jazz Inc.",
+                "Philly Jazz Inc.",
+                "Blank Tape Studios",
+                "Enterplan"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz",
+                "Funk / Soul"
+            ],
+            "style":
+            [
+                "Avant-garde Jazz"
+            ],
+            "id": 143590,
+            "barcode":
+            [
+                "PJ666A",
+                "PJ666B",
+                "PJ 666 A 00",
+                "PJ 666 B 00",
+                "77 PJ 666 A ",
+                "77 PJ 666 B",
+                "BMI"
+            ],
+            "master_id": 143590,
+            "master_url": "https://api.discogs.com/masters/143590",
+            "uri": "/master/143590-Sun-Ra-Lanquidity",
+            "catno": "PJ666",
+            "title": "Sun Ra - Lanquidity",
+            "thumb": "https://i.discogs.com/iXbJH1bkiICdOaQ0UFkJ9kE9-iHDh3AqZArBJGm0lvE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTU2/OTY1LTE1NDUzNDM5/NzEtNTM2MS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/f5PMKeJG9jJ8_1r69SVTWxwpxs2-q54jnxI4JC2zxOU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTU2/OTY1LTE1NDUzNDM5/NzEtNTM2MS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/143590",
+            "community":
+            {
+                "want": 7577,
+                "have": 7017
+            }
+        },
+        {
+            "country": "US",
+            "year": "1965",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Stereo"
+            ],
+            "label":
+            [
+                "ESP Disk",
+                "RLA Sound Studios",
+                "Plastylite",
+                "United International"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 84379,
+            "barcode":
+            [
+                "ESPS 1014A P",
+                "ESPS 1014B P",
+                "P"
+            ],
+            "master_id": 84379,
+            "master_url": "https://api.discogs.com/masters/84379",
+            "uri": "/master/84379-Sun-Ra-The-Heliocentric-Worlds-Of-Sun-Ra-Vol-I",
+            "catno": "1014",
+            "title": "Sun Ra - The Heliocentric Worlds Of Sun Ra, Vol. I",
+            "thumb": "https://i.discogs.com/0A1cQ7rh3C4itsq2KaFPmG7tlobwdvdPvJC1gStj6rA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MTE5/NzYtMTQ0MTU2MTU3/Mi0xNjY0LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/2Fn_WC6IQ9MXeHAsxTe2EAoi-OGGjN8tgk5QfZ1gKr8/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MTE5/NzYtMTQ0MTU2MTU3/Mi0xNjY0LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84379",
+            "community":
+            {
+                "want": 8156,
+                "have": 3624
+            }
+        },
+        {
+            "country": "US",
+            "year": "1978",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Improvising Artists Inc."
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Post Bop"
+            ],
+            "id": 284136,
+            "barcode":
+            [],
+            "master_id": 284136,
+            "master_url": "https://api.discogs.com/masters/284136",
+            "uri": "/Sun-Ra-St-Louis-Blues-Solo-Piano/master/284136",
+            "catno": "IAI 37.38.58",
+            "title": "Sun Ra - St. Louis Blues - Solo Piano",
+            "thumb": "https://i.discogs.com/xHWkbiu7kUx-OO3qNpRCRMMU4_tAg2H_Wnmt8HRiRVs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTI3/MjgtMTMwNTIwNjc4/MS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/NzgNXlxZm1zIswmIzNHVQAmyuBbZVHXhWGCw61e9zNQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTI3/MjgtMTMwNTIwNjc4/MS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/284136",
+            "community":
+            {
+                "want": 378,
+                "have": 310
+            }
+        },
+        {
+            "country": "US",
+            "year": "1983",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records",
+                "Enterplanetary Koncepts",
+                "Recommended Records"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Avant-garde Jazz"
+            ],
+            "id": 1616957,
+            "barcode":
+            [
+                "1984 A",
+                "1984 B",
+                "BMI"
+            ],
+            "master_id": 1616957,
+            "master_url": "https://api.discogs.com/masters/1616957",
+            "uri": "/Sun-Ra-Just-Friends/master/1616957",
+            "catno": "XI",
+            "title": "Sun Ra - Just Friends",
+            "thumb": "https://i.discogs.com/SuznSQtidq3GgnMs59xgxnPqjotiK1DEbzYhoirebjA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwOTQw/MTItMTQxMDkwMDk3/Ny0zNjQxLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/gNCGB-bOVDBJ-_uGGl_GKw2p18gzs6YU-LuYPVI3iMc/rs:fit/g:sm/q:90/h:300/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwOTQw/MTItMTQxMDkwMDk3/Ny0zNjQxLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1616957",
+            "community":
+            {
+                "want": 370,
+                "have": 49
+            }
+        },
+        {
+            "country": "US",
+            "year": "1977",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Saturn Research"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Avant-garde Jazz"
+            ],
+            "id": 374598,
+            "barcode":
+            [
+                "771-A",
+                "771-B",
+                "771-A BP",
+                "771-B BP"
+            ],
+            "master_id": 374598,
+            "master_url": "https://api.discogs.com/masters/374598",
+            "uri": "/master/374598-Sun-Ra-The-Soul-Vibrations-Of-Man",
+            "catno": "771",
+            "title": "Sun Ra - The Soul Vibrations Of Man",
+            "thumb": "https://i.discogs.com/s9KXsc_0Vu9TfehY4pa1pg1B6NZ2S4_XljwbSjUU1xE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTQ0/MzgtMTQ3NDMwNzI4/MC00MjU3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/IasGXNcIZB1GyFcbURLT8vA2dd_cC2FmFtlBoNhjMus/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTQ0/MzgtMTQ3NDMwNzI4/MC00MjU3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/374598",
+            "community":
+            {
+                "want": 1014,
+                "have": 370
+            }
+        },
+        {
+            "country": "US",
+            "year": "1981",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Space-Age",
+                "Free Improvisation"
+            ],
+            "id": 870945,
+            "barcode":
+            [
+                "SR72881 A",
+                "SR72881 B"
+            ],
+            "master_id": 870945,
+            "master_url": "https://api.discogs.com/masters/870945",
+            "uri": "/Sun-Ra-Oblique-Parallax/master/870945",
+            "catno": "SR72881",
+            "title": "Sun Ra - Oblique Parallax",
+            "thumb": "https://i.discogs.com/61T00jLuuQl_jsPm_as6z2HNMAkA5Rmi9LyOfo64nu8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyODc4/NzUtMTQzODA5Mjk0/NS00OTI0LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/Ct38Q9EeLAwPhJ-D5bHyWY2LNF3EtMYbsFAKrJXjSqo/rs:fit/g:sm/q:90/h:400/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyODc4/NzUtMTQzODA5Mjk0/NS00OTI0LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/870945",
+            "community":
+            {
+                "want": 1059,
+                "have": 143
+            }
+        },
+        {
+            "country": "US",
+            "year": "1985",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "El Saturn Records",
+                "Enterplan",
+                "Variety Recording Service"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 971500,
+            "barcode":
+            [
+                "BMI",
+                "9-1213-85-A SUN-RA VARIETY",
+                "9-1213-85-B SUN-RA VARIETY"
+            ],
+            "master_id": 971500,
+            "master_url": "https://api.discogs.com/masters/971500",
+            "uri": "/Sun-Ra-Outer-Reach-Intensity-Energy-Stars-That-Shine-Darkly-Vol-2/master/971500",
+            "catno": "9-1213-85",
+            "title": "Sun Ra - Outer Reach Intensity-Energy (Stars That Shine Darkly, Vol. 2)",
+            "thumb": "https://i.discogs.com/SguoUO2MGZohta17-LYjKjLP-swwQ_2fD_Vbl840wC0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzAz/MDMtMTQzMjk4NzA0/My03NDg0LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/X38DLWC5mMkngtVcOVhfiFZWl7dYJLByWIXCod1Jduo/rs:fit/g:sm/q:90/h:400/w:394/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzAz/MDMtMTQzMjk4NzA0/My03NDg0LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/971500",
+            "community":
+            {
+                "want": 567,
+                "have": 52
+            }
+        },
+        {
+            "country": "France",
+            "year": "1971",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label":
+            [
+                "Shandar",
+                "Shandar",
+                "RCA",
+                "Dillard et Cie. Imp. Paris"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Free Jazz"
+            ],
+            "id": 84369,
+            "barcode":
+            [
+                "SR 10001 A ",
+                "SR 10001 B",
+                "SR 10001 A GP",
+                "SH 10001 A GP",
+                "SR 10001 B",
+                "Ⓤ"
+            ],
+            "master_id": 84369,
+            "master_url": "https://api.discogs.com/masters/84369",
+            "uri": "/master/84369-Sun-Ra-Nuits-De-La-Fondation-Maeght-Volume-1",
+            "catno": "SR 10 001",
+            "title": "Sun Ra - Nuits De La Fondation Maeght Volume 1",
+            "thumb": "https://i.discogs.com/8I22AJlxWXkwG_fpLiUjgNbUKzOPflneTj6Eim3sQDc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2NzI1/OS0xNDY5MzUxNzAw/LTEwNjIuanBlZw.jpeg",
+            "cover_image": "https://i.discogs.com/vD5KLg1OL5SxvZWOTfm5oc2ivqe0Nc04CzBClsSO6yc/rs:fit/g:sm/q:90/h:605/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2NzI1/OS0xNDY5MzUxNzAw/LTEwNjIuanBlZw.jpeg",
+            "resource_url": "https://api.discogs.com/masters/84369",
+            "community":
+            {
+                "want": 1633,
+                "have": 1150
+            }
+        },
+        {
+            "country": "UK",
+            "year": "2010",
+            "format":
+            [
+                "Vinyl",
+                "7\"",
+                "45 RPM",
+                "Compilation",
+                "Limited Edition",
+                "Numbered"
+            ],
+            "label":
+            [
+                "Jazzman",
+                "House Of Traps",
+                "Enterplan"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz"
+            ],
+            "style":
+            [
+                "Space-Age",
+                "Big Band"
+            ],
+            "id": 483550,
+            "barcode":
+            [
+                "BMI"
+            ],
+            "master_id": 483550,
+            "master_url": "https://api.discogs.com/masters/483550",
+            "uri": "/Sun-Ra-The-Shadows-Cast-By-Tomorrow/master/483550",
+            "catno": "JM.073",
+            "title": "Sun Ra - The Shadows Cast By Tomorrow",
+            "thumb": "https://i.discogs.com/GgTMB08xHxjmld53Byugnn4kNekg9uwNNZddFNpD7l8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyODIy/NDAtMTI3Njc5ODY4/Ni5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/NoVEVKxxsdqAngJTifhugY53qi8T1MpDr_GTv-MeZoI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyODIy/NDAtMTI3Njc5ODY4/Ni5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/483550",
+            "community":
+            {
+                "want": 544,
+                "have": 281
+            }
+        },
+        {
+            "country": "Italy",
+            "year": "2010",
+            "format":
+            [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Limited Edition",
+                "Numbered",
+                "Reissue",
+                "Unofficial Release"
+            ],
+            "label":
+            [
+                "Troglosound"
+            ],
+            "type": "master",
+            "genre":
+            [
+                "Jazz",
+                "Blues"
+            ],
+            "style":
+            [
+                "Free Jazz",
+                "Space-Age",
+                "Avant-garde Jazz"
+            ],
+            "id": 1334059,
+            "barcode":
+            [],
+            "master_id": 1334059,
+            "master_url": "https://api.discogs.com/masters/1334059",
+            "uri": "/master/1334059-Sun-Ra-Cymbals",
+            "catno": "2000",
+            "title": "Sun Ra - Cymbals",
+            "thumb": "https://i.discogs.com/ZHmPaT-xf2G7MC2rUlo9GFccEJqewZGgdfk7RUufCYA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDcx/MjgtMTI4MjMwNzMy/NC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/WpuZxeQ-J4qGduz4WDTZUNBsHzvz6yA6jZ27FDxOCmM/rs:fit/g:sm/q:90/h:531/w:535/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDcx/MjgtMTI4MjMwNzMy/NC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1334059",
+            "community":
+            {
+                "want": 479,
+                "have": 606
+            }
+        }
+    ]
+}

@@ -15,7 +15,7 @@ def index():
 def sample_request():
     artist="sun ra"
 
-    r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
+    r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
     return render_template("sample-request.html", r=r)
 
 
@@ -26,7 +26,7 @@ def sample_request_search():
     if request.method == "POST":
         artist = request.form.get("artist")
         
-        r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
+        r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
 
         # turn string into json
         r_json = json.loads(r)
@@ -39,12 +39,18 @@ def sample_request_search():
         
         # get album title
         for result in r_json["results"]:
-            masters.append(result["title"])
-            uris.append(result["uri"])
-            year.append(result["year"])
-            thumb.append(result["thumb"])
+            try:
+                masters.append(result["title"])
+                uris.append(result["uri"])
+                year.append(result["year"])
+                thumb.append(result["thumb"])
+            except:
+                pass
 
         data = list(zip(masters, uris, year, thumb))
+
+        # sort by year
+        data.sort(key=lambda y: y[2])
         base_url = 'https://www.discogs.com'
         print(thumb[0])
 

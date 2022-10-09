@@ -8,6 +8,25 @@ a:hover {
   color:  blue;
 }
 
-th {
+td, th {
   text-align: left;
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-year, #table-album-cover {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }

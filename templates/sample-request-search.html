@@ -2,7 +2,8 @@
 
 {% block body %}
     
-    <h3>Search an artist to see their master releases</h3>
+    <h3>Search an artist and see their master releases</h3>
+    <p>*for now only shows albums for which discogs has all data. **only vinyl 🐱‍👓</p>
 
     <br>
 
@@ -16,14 +17,14 @@
     <table>
         <tr>
             <th>Master</th>
-            <th>Year</th>
-            <th>Album Cover</th>
+            <th id="table-year">Year</th>
+            <th id="table-album-cover">Album Cover</th>
         </tr>
         {% for d in data %}
         <tr>
             <td><a href={{ base_url + d[1] }} target="_blank" rel="noopener noreferrer">{{ d[0] }}</a></td>
-            <td>{{ d[2] }}</td>
-            <td><img src="{{ d[3] }}" alt="{{ d[0] }} Album Cover" height=150 width=150/></td>
+            <td id="table-year">{{ d[2] }}</td>
+            <td id="table-album-cover"><img src="{{ d[3] }}" alt="{{ d[0] }} Album Cover" height=75 width=75/></td>
         </tr>
         {% endfor %}
     </table>
