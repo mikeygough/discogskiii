@@ -15,7 +15,7 @@ in development:
 - links to sellers
 - historical price information
 
-all data is taken from discogs.com via their api. i <3 you discogs.
+all data is taken from discogs.com via their api. i ❤️ you discogs.
 
 ---
 ### Reference:

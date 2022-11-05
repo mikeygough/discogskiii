@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <table>
+        <tr>
+            <th id="ids">ID</th>
+            <th id="uri">URI</th>
+        </tr>
+        {% for d in data %}
+        <tr>
+            <td><a href={{ d[1] }} target="_blank" rel="noopener noreferrer">{{ d[0] }}</a></td>
+            <td id="uri">{{ d[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

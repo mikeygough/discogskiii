@@ -1,0 +1,3517 @@
+{
+    "pagination":
+    {
+        "page": 1,
+        "pages": 9,
+        "per_page": 50,
+        "items": 409,
+        "urls":
+        {
+            "last": "https://api.discogs.com/users/uirapuru/inventory?page=9&per_page=50",
+            "next": "https://api.discogs.com/users/uirapuru/inventory?page=2&per_page=50"
+        }
+    },
+    "listings":
+    [
+        {
+            "id": 193145788,
+            "resource_url": "https://api.discogs.com/marketplace/listings/193145788",
+            "uri": "https://www.discogs.com/sell/item/193145788",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:09-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 11.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€11.00",
+                "value": 11.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Bjarne Rostvold Quintet - Late Night Ceremony (LP, Album)",
+                "images":
+                [],
+                "artist": "Bjarne Rostvold Quintet",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/5070221",
+                "title": "Late Night Ceremony",
+                "year": 1986,
+                "id": 5070221,
+                "catalog_number": "STULP 8701",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 17,
+                        "in_collection": 41
+                    }
+                }
+            }
+        },
+        {
+            "id": 225332490,
+            "resource_url": "https://api.discogs.com/marketplace/listings/225332490",
+            "uri": "https://www.discogs.com/sell/item/225332490",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Generic",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:09-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 8.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€8.00",
+                "value": 8.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Build An Ark - Sunshine E.P. (12\", EP)",
+                "images":
+                [],
+                "artist": "Build An Ark",
+                "format": "12\", EP",
+                "resource_url": "https://api.discogs.com/releases/1258083",
+                "title": "Sunshine E.P.",
+                "year": 2008,
+                "id": 1258083,
+                "catalog_number": "KS 023",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 62,
+                        "in_collection": 107
+                    }
+                }
+            }
+        },
+        {
+            "id": 195717132,
+            "resource_url": "https://api.discogs.com/marketplace/listings/195717132",
+            "uri": "https://www.discogs.com/sell/item/195717132",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Generic",
+            "comments": "Stereo side has writing on label.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:09-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "The Insiders (3) - In The Midnight Hour (7\", Mono, Promo)",
+                "images":
+                [],
+                "artist": "The Insiders (3)",
+                "format": "7\", Mono, Promo",
+                "resource_url": "https://api.discogs.com/releases/2180606",
+                "title": "In The Midnight Hour",
+                "year": 1974,
+                "id": 2180606,
+                "catalog_number": "PE 644",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 31,
+                        "in_collection": 43
+                    }
+                }
+            }
+        },
+        {
+            "id": 194941602,
+            "resource_url": "https://api.discogs.com/marketplace/listings/194941602",
+            "uri": "https://www.discogs.com/sell/item/194941602",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Generic",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:09-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Jimmy Smith - Groovin' (7\", Single, PL )",
+                "images":
+                [],
+                "artist": "Jimmy Smith",
+                "format": "7\", Single, PL ",
+                "resource_url": "https://api.discogs.com/releases/4720368",
+                "title": "Groovin'",
+                "year": 1974,
+                "id": 4720368,
+                "catalog_number": "PD-7602",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 29,
+                        "in_collection": 27
+                    }
+                }
+            }
+        },
+        {
+            "id": 69905547,
+            "resource_url": "https://api.discogs.com/marketplace/listings/69905547",
+            "uri": "https://www.discogs.com/sell/item/69905547",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Like new! Original French issue.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:09-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Various - Disco Project (LP, Comp, Mixed)",
+                "images":
+                [],
+                "artist": "Various",
+                "format": "LP, Comp, Mixed",
+                "resource_url": "https://api.discogs.com/releases/1882766",
+                "title": "Disco Project",
+                "year": 1978,
+                "id": 1882766,
+                "catalog_number": "900 574",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 32,
+                        "in_collection": 61
+                    }
+                }
+            }
+        },
+        {
+            "id": 317092466,
+            "resource_url": "https://api.discogs.com/marketplace/listings/317092466",
+            "uri": "https://www.discogs.com/sell/item/317092466",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Minor ring wear on back, otherwise a perfect copy",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Veljo Tormis - Kolm Laulu Eeposest / Liivlaste Pärandus / Jaanilaulud (LP)",
+                "images":
+                [],
+                "artist": "Veljo Tormis",
+                "format": "LP",
+                "resource_url": "https://api.discogs.com/releases/3767672",
+                "title": "Kolm Laulu Eeposest / Liivlaste Pärandus / Jaanilaulud",
+                "year": 1971,
+                "id": 3767672,
+                "catalog_number": "33СМ 02845-6",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 12,
+                        "in_collection": 25
+                    }
+                }
+            }
+        },
+        {
+            "id": 308295313,
+            "resource_url": "https://api.discogs.com/marketplace/listings/308295313",
+            "uri": "https://www.discogs.com/sell/item/308295313",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Generic",
+            "comments": "With knock-out center. There's a price sticker on side A label that might not come off clean. Looks unplayed.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Migil 5* - Mockin' Bird Hill (7\", Single)",
+                "images":
+                [],
+                "artist": "Migil 5*",
+                "format": "7\", Single",
+                "resource_url": "https://api.discogs.com/releases/5752951",
+                "title": "Mockin' Bird Hill",
+                "year": 1964,
+                "id": 5752951,
+                "catalog_number": "7N 15 597",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 4,
+                        "in_collection": 9
+                    }
+                }
+            }
+        },
+        {
+            "id": 317023394,
+            "resource_url": "https://api.discogs.com/marketplace/listings/317023394",
+            "uri": "https://www.discogs.com/sell/item/317023394",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Madrigal Choir Of The Academy Of Music, Munich, Timothy Joss - 11th World Energy Conference 1980 Munich (12\", Ltd, Gif)",
+                "images":
+                [],
+                "artist": "Madrigal Choir Of The Academy Of Music, Munich, Timothy Joss",
+                "format": "12\", Ltd, Gif",
+                "resource_url": "https://api.discogs.com/releases/7771971",
+                "title": "11th World Energy Conference 1980 Munich",
+                "year": 1980,
+                "id": 7771971,
+                "catalog_number": "2891 225",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 1,
+                        "in_collection": 23
+                    }
+                }
+            }
+        },
+        {
+            "id": 286435758,
+            "resource_url": "https://api.discogs.com/marketplace/listings/286435758",
+            "uri": "https://www.discogs.com/sell/item/286435758",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Cover would be NM but there's a 2cm x 8cm sticker on bottom left front",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 12.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€12.00",
+                "value": 12.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Claes-Göran Fagerstedt - Stone Free (LP, Album)",
+                "images":
+                [],
+                "artist": "Claes-Göran Fagerstedt",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/3970437",
+                "title": "Stone Free",
+                "year": 1975,
+                "id": 3970437,
+                "catalog_number": "4 E 062-35170",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 32,
+                        "in_collection": 23
+                    }
+                }
+            }
+        },
+        {
+            "id": 314799336,
+            "resource_url": "https://api.discogs.com/marketplace/listings/314799336",
+            "uri": "https://www.discogs.com/sell/item/314799336",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "One surface mark on disc, cut-out mark on cover.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "G Unit*, 50 Cent, Whoo Kid* - G-Unit: Return Of The Body Snatchers Vol. 1 (CD, Album, Mixed)",
+                "images":
+                [],
+                "artist": "G Unit*, 50 Cent, Whoo Kid*",
+                "format": "CD, Album, Mixed",
+                "resource_url": "https://api.discogs.com/releases/6335607",
+                "title": "G-Unit: Return Of The Body Snatchers Vol. 1",
+                "year": 2008,
+                "id": 6335607,
+                "catalog_number": "none",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 17,
+                        "in_collection": 12
+                    }
+                }
+            }
+        },
+        {
+            "id": 314799517,
+            "resource_url": "https://api.discogs.com/marketplace/listings/314799517",
+            "uri": "https://www.discogs.com/sell/item/314799517",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Near Mint = no marks on disc. I use Mint only for sealed items.\r\n\r\nJewel case is a bit worn, but insert is very clean.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "King Bee - Royal Jelly (CD, Album)",
+                "images":
+                [],
+                "artist": "King Bee",
+                "format": "CD, Album",
+                "resource_url": "https://api.discogs.com/releases/1367044",
+                "title": "Royal Jelly",
+                "year": 1990,
+                "id": 1367044,
+                "catalog_number": "467794 2",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 38,
+                        "in_collection": 59
+                    }
+                }
+            }
+        },
+        {
+            "id": 297007968,
+            "resource_url": "https://api.discogs.com/marketplace/listings/297007968",
+            "uri": "https://www.discogs.com/sell/item/297007968",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Generic",
+            "comments": "Unplayed.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Sun Rise Above - Free Your Mind (7\", Single, Promo)",
+                "images":
+                [],
+                "artist": "Sun Rise Above",
+                "format": "7\", Single, Promo",
+                "resource_url": "https://api.discogs.com/releases/1592557",
+                "title": "Free Your Mind",
+                "year": 2007,
+                "id": 1592557,
+                "catalog_number": "TRA005",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 11,
+                        "in_collection": 30
+                    }
+                }
+            }
+        },
+        {
+            "id": 282637706,
+            "resource_url": "https://api.discogs.com/marketplace/listings/282637706",
+            "uri": "https://www.discogs.com/sell/item/282637706",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Ring wear on front, minor wear on seams.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 10.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€10.00",
+                "value": 10.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Various - Det Nyjazzte Från Göteborg (LP, Album)",
+                "images":
+                [],
+                "artist": "Various",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/1620462",
+                "title": "Det Nyjazzte Från Göteborg",
+                "year": 1977,
+                "id": 1620462,
+                "catalog_number": "CAP 3006",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 33,
+                        "in_collection": 94
+                    }
+                }
+            }
+        },
+        {
+            "id": 314799219,
+            "resource_url": "https://api.discogs.com/marketplace/listings/314799219",
+            "uri": "https://www.discogs.com/sell/item/314799219",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Slimcase promo issue.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Why? - Alopecia (CD, Album, Promo)",
+                "images":
+                [],
+                "artist": "Why?",
+                "format": "CD, Album, Promo",
+                "resource_url": "https://api.discogs.com/releases/2561751",
+                "title": "Alopecia",
+                "year": 2008,
+                "id": 2561751,
+                "catalog_number": "TOM 112 PROMO",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 40,
+                        "in_collection": 33
+                    }
+                }
+            }
+        },
+        {
+            "id": 233018026,
+            "resource_url": "https://api.discogs.com/marketplace/listings/233018026",
+            "uri": "https://www.discogs.com/sell/item/233018026",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Partially removed price sticker and a minor tear on top right front.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Frankenstein And The All Star Monster Band - Frankenstein And The All Star Monster Band (LP, Album)",
+                "images":
+                [],
+                "artist": "Frankenstein And The All Star Monster Band",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/2102935",
+                "title": "Frankenstein And The All Star Monster Band",
+                "year": 1984,
+                "id": 2102935,
+                "catalog_number": "SNTF 918",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 34,
+                        "in_collection": 87
+                    }
+                }
+            }
+        },
+        {
+            "id": 284312799,
+            "resource_url": "https://api.discogs.com/marketplace/listings/284312799",
+            "uri": "https://www.discogs.com/sell/item/284312799",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Cut-out mark on top right, otherwise NM cover.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Foxy - Foxy (LP, Album)",
+                "images":
+                [],
+                "artist": "Foxy",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/1480185",
+                "title": "Foxy",
+                "year": 1976,
+                "id": 1480185,
+                "catalog_number": "30001",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 188,
+                        "in_collection": 137
+                    }
+                }
+            }
+        },
+        {
+            "id": 282641376,
+            "resource_url": "https://api.discogs.com/marketplace/listings/282641376",
+            "uri": "https://www.discogs.com/sell/item/282641376",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 8.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€8.00",
+                "value": 8.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Monica Törnell - Jag Är Som Jag Är (LP, Album)",
+                "images":
+                [],
+                "artist": "Monica Törnell",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/1798949",
+                "title": "Jag Är Som Jag Är",
+                "year": 1978,
+                "id": 1798949,
+                "catalog_number": "6316 108",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 102,
+                        "in_collection": 470
+                    }
+                }
+            }
+        },
+        {
+            "id": 283560412,
+            "resource_url": "https://api.discogs.com/marketplace/listings/283560412",
+            "uri": "https://www.discogs.com/sell/item/283560412",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Double Image - In Lands I Never Saw (LP, Album)",
+                "images":
+                [],
+                "artist": "Double Image",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/4287736",
+                "title": "In Lands I Never Saw",
+                "year": 1986,
+                "id": 4287736,
+                "catalog_number": "CEL 015",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 38,
+                        "in_collection": 45
+                    }
+                }
+            }
+        },
+        {
+            "id": 317110839,
+            "resource_url": "https://api.discogs.com/marketplace/listings/317110839",
+            "uri": "https://www.discogs.com/sell/item/317110839",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Minor dents on top and bottom right corners.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 20.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€20.00",
+                "value": 20.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Margaret Noble - Frakture (LP, Album)",
+                "images":
+                [],
+                "artist": "Margaret Noble",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/7810545",
+                "title": "Frakture",
+                "year": 2010,
+                "id": 7810545,
+                "catalog_number": "MN-01",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 2,
+                        "in_collection": 5
+                    }
+                }
+            }
+        },
+        {
+            "id": 239400826,
+            "resource_url": "https://api.discogs.com/marketplace/listings/239400826",
+            "uri": "https://www.discogs.com/sell/item/239400826",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 8.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€8.00",
+                "value": 8.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "J.C. Bach* / Ingrid Haebler with Kurt Redel - Sechs Sonaten Für Clavier Und Flöte, Op.19 (LP)",
+                "images":
+                [],
+                "artist": "J.C. Bach* / Ingrid Haebler with Kurt Redel",
+                "format": "LP",
+                "resource_url": "https://api.discogs.com/releases/6958290",
+                "title": "Sechs Sonaten Für Clavier Und Flöte, Op.19",
+                "year": 1974,
+                "id": 6958290,
+                "catalog_number": "6500 849",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 2,
+                        "in_collection": 16
+                    }
+                }
+            }
+        },
+        {
+            "id": 317090490,
+            "resource_url": "https://api.discogs.com/marketplace/listings/317090490",
+            "uri": "https://www.discogs.com/sell/item/317090490",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 8.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€8.00",
+                "value": 8.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "William Faulkner - Faulkner Reads From His Works (LP, Album)",
+                "images":
+                [],
+                "artist": "William Faulkner",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/729475",
+                "title": "Faulkner Reads From His Works",
+                "year": 1954,
+                "id": 729475,
+                "catalog_number": "TC 1035",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 47,
+                        "in_collection": 138
+                    }
+                }
+            }
+        },
+        {
+            "id": 323075504,
+            "resource_url": "https://api.discogs.com/marketplace/listings/323075504",
+            "uri": "https://www.discogs.com/sell/item/323075504",
+            "status": "For Sale",
+            "condition": "Very Good (VG)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Plenty of surface marks but still a nice copy. Strict grading.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Stein Ingebrigtsen, Terje Fjærns Orkester - Cento Campane (7\", Single)",
+                "images":
+                [],
+                "artist": "Stein Ingebrigtsen, Terje Fjærns Orkester",
+                "format": "7\", Single",
+                "resource_url": "https://api.discogs.com/releases/2919462",
+                "title": "Cento Campane",
+                "year": 1972,
+                "id": 2919462,
+                "catalog_number": "NA 1396",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 6,
+                        "in_collection": 73
+                    }
+                }
+            }
+        },
+        {
+            "id": 317092327,
+            "resource_url": "https://api.discogs.com/marketplace/listings/317092327",
+            "uri": "https://www.discogs.com/sell/item/317092327",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Lydia Mendoza - La Gloria De Texas (LP, Album)",
+                "images":
+                [],
+                "artist": "Lydia Mendoza",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/4034588",
+                "title": "La Gloria De Texas",
+                "year": 1980,
+                "id": 4034588,
+                "catalog_number": "3012",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 41,
+                        "in_collection": 63
+                    }
+                }
+            }
+        },
+        {
+            "id": 236600809,
+            "resource_url": "https://api.discogs.com/marketplace/listings/236600809",
+            "uri": "https://www.discogs.com/sell/item/236600809",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Generic",
+            "comments": "Centerpiece missing.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Anki, Bosse Ja Robert / Kukonpojat - Mistä Löydän, Kuinka Löydän? / Kuka Liisan Vei? (7\", Single)",
+                "images":
+                [],
+                "artist": "Anki, Bosse Ja Robert / Kukonpojat",
+                "format": "7\", Single",
+                "resource_url": "https://api.discogs.com/releases/2690007",
+                "title": "Mistä Löydän, Kuinka Löydän? / Kuka Liisan Vei?",
+                "year": 1967,
+                "id": 2690007,
+                "catalog_number": "45-P 360",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 1,
+                        "in_collection": 11
+                    }
+                }
+            }
+        },
+        {
+            "id": 292869147,
+            "resource_url": "https://api.discogs.com/marketplace/listings/292869147",
+            "uri": "https://www.discogs.com/sell/item/292869147",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Mozart*, Aurèle Nicolet, Concertgebouw-Orchester, Amsterdam*, David Zinman - Flötenkonzerte KV 313 & KV 314 – Andante Für Flöte Und Orchester KV 315 (LP)",
+                "images":
+                [],
+                "artist": "Mozart*, Aurèle Nicolet, Concertgebouw-Orchester, Amsterdam*, David Zinman",
+                "format": "LP",
+                "resource_url": "https://api.discogs.com/releases/7692289",
+                "title": "Flötenkonzerte KV 313 & KV 314 – Andante Für Flöte Und Orchester KV 315",
+                "year": 1979,
+                "id": 7692289,
+                "catalog_number": "9500 392",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 2,
+                        "in_collection": 18
+                    }
+                }
+            }
+        },
+        {
+            "id": 299321234,
+            "resource_url": "https://api.discogs.com/marketplace/listings/299321234",
+            "uri": "https://www.discogs.com/sell/item/299321234",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "In shrink",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Lydia Taylor - Lydia Taylor (LP, Album)",
+                "images":
+                [],
+                "artist": "Lydia Taylor",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/3053517",
+                "title": "Lydia Taylor",
+                "year": 1979,
+                "id": 3053517,
+                "catalog_number": "FAL 80.001",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 6,
+                        "in_collection": 42
+                    }
+                }
+            }
+        },
+        {
+            "id": 323261939,
+            "resource_url": "https://api.discogs.com/marketplace/listings/323261939",
+            "uri": "https://www.discogs.com/sell/item/323261939",
+            "status": "For Sale",
+            "condition": "Very Good (VG)",
+            "sleeve_condition": "Generic",
+            "comments": "Strict grading.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Sam Nesbit - Keep On Hustling Baby (7\", Sol)",
+                "images":
+                [],
+                "artist": "Sam Nesbit",
+                "format": "7\", Sol",
+                "resource_url": "https://api.discogs.com/releases/2064413",
+                "title": "Keep On Hustling Baby",
+                "year": 1975,
+                "id": 2064413,
+                "catalog_number": "RO 103",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 47,
+                        "in_collection": 36
+                    }
+                }
+            }
+        },
+        {
+            "id": 234125951,
+            "resource_url": "https://api.discogs.com/marketplace/listings/234125951",
+            "uri": "https://www.discogs.com/sell/item/234125951",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Only minor creasing on cover, strict grading.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:10-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 8.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€8.00",
+                "value": 8.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Maria Tănase - (V) (LP, Comp, Mono)",
+                "images":
+                [],
+                "artist": "Maria Tănase",
+                "format": "LP, Comp, Mono",
+                "resource_url": "https://api.discogs.com/releases/6006040",
+                "title": "(V)",
+                "year": 0,
+                "id": 6006040,
+                "catalog_number": "EPE 01282, EPE 01.282",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 8,
+                        "in_collection": 79
+                    }
+                }
+            }
+        },
+        {
+            "id": 336694112,
+            "resource_url": "https://api.discogs.com/marketplace/listings/336694112",
+            "uri": "https://www.discogs.com/sell/item/336694112",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Los Andariegos (2), Wild Cats (5), Oskars Kirchenmäuse - Lateinamerikanische Beatmesse (LP, Album)",
+                "images":
+                [],
+                "artist": "Los Andariegos (2), Wild Cats (5), Oskars Kirchenmäuse",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/5772488",
+                "title": "Lateinamerikanische Beatmesse",
+                "year": 1977,
+                "id": 5772488,
+                "catalog_number": "tvd 7703",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 10,
+                        "in_collection": 27
+                    }
+                }
+            }
+        },
+        {
+            "id": 651775805,
+            "resource_url": "https://api.discogs.com/marketplace/listings/651775805",
+            "uri": "https://www.discogs.com/sell/item/651775805",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 14.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€14.00",
+                "value": 14.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Various - სიმღერა თბილისზე = Песня О Тбилиси = Song Of Tbilisi (LP, Comp)",
+                "images":
+                [],
+                "artist": "Various",
+                "format": "LP, Comp",
+                "resource_url": "https://api.discogs.com/releases/7421236",
+                "title": "სიმღერა თბილისზე = Песня О Тбилиси = Song Of Tbilisi",
+                "year": 1979,
+                "id": 7421236,
+                "catalog_number": "С60—12537-8",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 13,
+                        "in_collection": 21
+                    }
+                }
+            }
+        },
+        {
+            "id": 408807369,
+            "resource_url": "https://api.discogs.com/marketplace/listings/408807369",
+            "uri": "https://www.discogs.com/sell/item/408807369",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Vinyl looks like new, cover has a minor split on top seam",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 8.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€8.00",
+                "value": 8.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Bjørn Eidsvåg - Live In Ny York (LP, Album)",
+                "images":
+                [],
+                "artist": "Bjørn Eidsvåg",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/5266797",
+                "title": "Live In Ny York",
+                "year": 1981,
+                "id": 5266797,
+                "catalog_number": "FXLP 28",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 7,
+                        "in_collection": 83
+                    }
+                }
+            }
+        },
+        {
+            "id": 515308758,
+            "resource_url": "https://api.discogs.com/marketplace/listings/515308758",
+            "uri": "https://www.discogs.com/sell/item/515308758",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Looks like new. An old price sticker on front. Black label w/ silver print.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Dr. Buzzard's Original Savannah Band - Dr. Buzzard's Original Savannah Band (LP)",
+                "images":
+                [],
+                "artist": "Dr. Buzzard's Original Savannah Band",
+                "format": "LP",
+                "resource_url": "https://api.discogs.com/releases/1451325",
+                "title": "Dr. Buzzard's Original Savannah Band",
+                "year": 1976,
+                "id": 1451325,
+                "catalog_number": "PL 11504",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 250,
+                        "in_collection": 115
+                    }
+                }
+            }
+        },
+        {
+            "id": 521577005,
+            "resource_url": "https://api.discogs.com/marketplace/listings/521577005",
+            "uri": "https://www.discogs.com/sell/item/521577005",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "EX/EX",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 8.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€8.00",
+                "value": 8.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Smirnoff Quintet - Helsdingen (LP)",
+                "images":
+                [],
+                "artist": "Smirnoff Quintet",
+                "format": "LP",
+                "resource_url": "https://api.discogs.com/releases/2256444",
+                "title": "Helsdingen",
+                "year": 1983,
+                "id": 2256444,
+                "catalog_number": "TPR 010683",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 9,
+                        "in_collection": 20
+                    }
+                }
+            }
+        },
+        {
+            "id": 550313346,
+            "resource_url": "https://api.discogs.com/marketplace/listings/550313346",
+            "uri": "https://www.discogs.com/sell/item/550313346",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 10.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€10.00",
+                "value": 10.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Talon Pojat - Talon Pojat (LP, Album)",
+                "images":
+                [],
+                "artist": "Talon Pojat",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/4318276",
+                "title": "Talon Pojat",
+                "year": 1978,
+                "id": 4318276,
+                "catalog_number": "KK-F1",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 2,
+                        "in_collection": 16
+                    }
+                }
+            }
+        },
+        {
+            "id": 498550250,
+            "resource_url": "https://api.discogs.com/marketplace/listings/498550250",
+            "uri": "https://www.discogs.com/sell/item/498550250",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good Plus (VG+)",
+            "comments": "Faint ringwear on front, otherwise NM-",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 25.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€25.00",
+                "value": 25.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Valto Laitinen - Säveliä Pariisin Siltojen Alta (LP, Comp)",
+                "images":
+                [],
+                "artist": "Valto Laitinen",
+                "format": "LP, Comp",
+                "resource_url": "https://api.discogs.com/releases/1117669",
+                "title": "Säveliä Pariisin Siltojen Alta",
+                "year": 1972,
+                "id": 1117669,
+                "catalog_number": "TOP-LP 519",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 14,
+                        "in_collection": 19
+                    }
+                }
+            }
+        },
+        {
+            "id": 490357256,
+            "resource_url": "https://api.discogs.com/marketplace/listings/490357256",
+            "uri": "https://www.discogs.com/sell/item/490357256",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Solid EX vinyl",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 15.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€15.00",
+                "value": 15.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Various - Kiri Kiri (LP, Album)",
+                "images":
+                [],
+                "artist": "Various",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/10446355",
+                "title": "Kiri Kiri",
+                "year": 1973,
+                "id": 10446355,
+                "catalog_number": "SFLP 8536",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 0,
+                        "in_collection": 16
+                    }
+                }
+            }
+        },
+        {
+            "id": 366939958,
+            "resource_url": "https://api.discogs.com/marketplace/listings/366939958",
+            "uri": "https://www.discogs.com/sell/item/366939958",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Generic",
+            "comments": "Includes promo sheet",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 15.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€15.00",
+                "value": 15.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "French Kiss (3) - French Kiss (12\", Promo)",
+                "images":
+                [],
+                "artist": "French Kiss (3)",
+                "format": "12\", Promo",
+                "resource_url": "https://api.discogs.com/releases/8412134",
+                "title": "French Kiss",
+                "year": 1983,
+                "id": 8412134,
+                "catalog_number": "SAMP 61",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 3,
+                        "in_collection": 2
+                    }
+                }
+            }
+        },
+        {
+            "id": 515308818,
+            "resource_url": "https://api.discogs.com/marketplace/listings/515308818",
+            "uri": "https://www.discogs.com/sell/item/515308818",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Two old price stickers on front.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Louise Bennett - Yes M'Dear - Miss Lou Live (LP, Album)",
+                "images":
+                [],
+                "artist": "Louise Bennett",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/4861744",
+                "title": "Yes M'Dear - Miss Lou Live",
+                "year": 1983,
+                "id": 4861744,
+                "catalog_number": "ILPS 9740",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 9,
+                        "in_collection": 43
+                    }
+                }
+            }
+        },
+        {
+            "id": 550316644,
+            "resource_url": "https://api.discogs.com/marketplace/listings/550316644",
+            "uri": "https://www.discogs.com/sell/item/550316644",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Like new, played once or twice. In shrink, with hype sticker. Has insert.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 20.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€20.00",
+                "value": 20.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Rob Thomsett - Yaraandoo (LP, RE)",
+                "images":
+                [],
+                "artist": "Rob Thomsett",
+                "format": "LP, RE",
+                "resource_url": "https://api.discogs.com/releases/3159531",
+                "title": "Yaraandoo",
+                "year": 2011,
+                "id": 3159531,
+                "catalog_number": "SIR003LP",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 214,
+                        "in_collection": 137
+                    }
+                }
+            }
+        },
+        {
+            "id": 760748456,
+            "resource_url": "https://api.discogs.com/marketplace/listings/760748456",
+            "uri": "https://www.discogs.com/sell/item/760748456",
+            "status": "For Sale",
+            "condition": "Mint (M)",
+            "sleeve_condition": "Mint (M)",
+            "comments": "Still sealed.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 11.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€11.00",
+                "value": 11.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Leroy Hutson - Unforgettable (CD, Album, RE, RM)",
+                "images":
+                [],
+                "artist": "Leroy Hutson",
+                "format": "CD, Album, RE, RM",
+                "resource_url": "https://api.discogs.com/releases/2259230",
+                "title": "Unforgettable",
+                "year": 1998,
+                "id": 2259230,
+                "catalog_number": "CPCD 8325",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 49,
+                        "in_collection": 40
+                    }
+                }
+            }
+        },
+        {
+            "id": 722109719,
+            "resource_url": "https://api.discogs.com/marketplace/listings/722109719",
+            "uri": "https://www.discogs.com/sell/item/722109719",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Small writing on back sleeve with ballpoint pen",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 15.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€15.00",
+                "value": 15.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Tchaikovsky* - Mstislav Rostropovich, National Symphony Orchestra, Vladimir Feltsman - Piano Concertos Nos. 1 & 3 (LP, Album)",
+                "images":
+                [],
+                "artist": "Tchaikovsky* - Mstislav Rostropovich, National Symphony Orchestra, Vladimir Feltsman",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/12130232",
+                "title": "Piano Concertos Nos. 1 & 3",
+                "year": 1990,
+                "id": 12130232,
+                "catalog_number": "S 45756",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 1,
+                        "in_collection": 6
+                    }
+                }
+            }
+        },
+        {
+            "id": 422550561,
+            "resource_url": "https://api.discogs.com/marketplace/listings/422550561",
+            "uri": "https://www.discogs.com/sell/item/422550561",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 5.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€5.00",
+                "value": 5.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "David Philoe - Love From Seychelles (7\", Single)",
+                "images":
+                [],
+                "artist": "David Philoe",
+                "format": "7\", Single",
+                "resource_url": "https://api.discogs.com/releases/3722293",
+                "title": "Love From Seychelles",
+                "year": 1970,
+                "id": 3722293,
+                "catalog_number": "RM-S 2",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 4,
+                        "in_collection": 10
+                    }
+                }
+            }
+        },
+        {
+            "id": 532380836,
+            "resource_url": "https://api.discogs.com/marketplace/listings/532380836",
+            "uri": "https://www.discogs.com/sell/item/532380836",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Various - Varsovan Lyhtyjen Alla (Viihdemusiikkia Puolasta) (LP, Comp)",
+                "images":
+                [],
+                "artist": "Various",
+                "format": "LP, Comp",
+                "resource_url": "https://api.discogs.com/releases/5740274",
+                "title": "Varsovan Lyhtyjen Alla (Viihdemusiikkia Puolasta)",
+                "year": 1980,
+                "id": 5740274,
+                "catalog_number": "KK-P 1, none",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 5,
+                        "in_collection": 13
+                    }
+                }
+            }
+        },
+        {
+            "id": 351057085,
+            "resource_url": "https://api.discogs.com/marketplace/listings/351057085",
+            "uri": "https://www.discogs.com/sell/item/351057085",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Generic",
+            "comments": "Pen marks on labels. Strict grading!",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 6.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€6.00",
+                "value": 6.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Eddie Drennon & The B.B.S. Unlimited - Let's Do The Latin Hustle  (7\", Promo)",
+                "images":
+                [],
+                "artist": "Eddie Drennon & The B.B.S. Unlimited",
+                "format": "7\", Promo",
+                "resource_url": "https://api.discogs.com/releases/1555894",
+                "title": "Let's Do The Latin Hustle ",
+                "year": 1975,
+                "id": 1555894,
+                "catalog_number": "F-124",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 38,
+                        "in_collection": 24
+                    }
+                }
+            }
+        },
+        {
+            "id": 510903569,
+            "resource_url": "https://api.discogs.com/marketplace/listings/510903569",
+            "uri": "https://www.discogs.com/sell/item/510903569",
+            "status": "For Sale",
+            "condition": "Very Good Plus (VG+)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "One small mark on disc, does not affect playback.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Etnopojat - \"Studio Live\" (CD, Album)",
+                "images":
+                [],
+                "artist": "Etnopojat",
+                "format": "CD, Album",
+                "resource_url": "https://api.discogs.com/releases/8659667",
+                "title": "\"Studio Live\"",
+                "year": 1989,
+                "id": 8659667,
+                "catalog_number": "ETCD 001",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 0,
+                        "in_collection": 8
+                    }
+                }
+            }
+        },
+        {
+            "id": 350901063,
+            "resource_url": "https://api.discogs.com/marketplace/listings/350901063",
+            "uri": "https://www.discogs.com/sell/item/350901063",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Cover still in shrink.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Kudos (4) - Kudos (LP, Album)",
+                "images":
+                [],
+                "artist": "Kudos (4)",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/3387629",
+                "title": "Kudos",
+                "year": 1983,
+                "id": 3387629,
+                "catalog_number": "DG 3000-1",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 10,
+                        "in_collection": 44
+                    }
+                }
+            }
+        },
+        {
+            "id": 403792214,
+            "resource_url": "https://api.discogs.com/marketplace/listings/403792214",
+            "uri": "https://www.discogs.com/sell/item/403792214",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Very Good (VG)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 10.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€10.00",
+                "value": 10.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Saheb Sarbib Quartet - UFO - Live On Tour (LP, Album)",
+                "images":
+                [],
+                "artist": "Saheb Sarbib Quartet",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/1838731",
+                "title": "UFO - Live On Tour",
+                "year": 1981,
+                "id": 1838731,
+                "catalog_number": "CJR 1008",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 53,
+                        "in_collection": 60
+                    }
+                }
+            }
+        },
+        {
+            "id": 760748386,
+            "resource_url": "https://api.discogs.com/marketplace/listings/760748386",
+            "uri": "https://www.discogs.com/sell/item/760748386",
+            "status": "For Sale",
+            "condition": "Mint (M)",
+            "sleeve_condition": "Mint (M)",
+            "comments": "Still sealed.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 9.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€9.00",
+                "value": 9.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Saoco - Macho Mumba (CD, Album, RE, RM)",
+                "images":
+                [],
+                "artist": "Saoco",
+                "format": "CD, Album, RE, RM",
+                "resource_url": "https://api.discogs.com/releases/4965628",
+                "title": "Macho Mumba",
+                "year": 1998,
+                "id": 4965628,
+                "catalog_number": "CDGR 262",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 4,
+                        "in_collection": 15
+                    }
+                }
+            }
+        },
+        {
+            "id": 452817114,
+            "resource_url": "https://api.discogs.com/marketplace/listings/452817114",
+            "uri": "https://www.discogs.com/sell/item/452817114",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 7.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€7.00",
+                "value": 7.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Ted Egan - A Town Like Alice (LP, Album)",
+                "images":
+                [],
+                "artist": "Ted Egan",
+                "format": "LP, Album",
+                "resource_url": "https://api.discogs.com/releases/8619356",
+                "title": "A Town Like Alice",
+                "year": 1980,
+                "id": 8619356,
+                "catalog_number": "VPL1 0313, VPL1-0313",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 3,
+                        "in_collection": 29
+                    }
+                }
+            }
+        },
+        {
+            "id": 328817800,
+            "resource_url": "https://api.discogs.com/marketplace/listings/328817800",
+            "uri": "https://www.discogs.com/sell/item/328817800",
+            "status": "For Sale",
+            "condition": "Near Mint (NM or M-)",
+            "sleeve_condition": "Near Mint (NM or M-)",
+            "comments": "Near Mint = no marks on disc. I use Mint only for sealed items.",
+            "ships_from": "Finland",
+            "posted": "2022-11-04T15:03:11-07:00",
+            "allow_offers": false,
+            "audio": false,
+            "price":
+            {
+                "value": 4.0,
+                "currency": "EUR"
+            },
+            "original_price":
+            {
+                "curr_abbr": "EUR",
+                "curr_id": 3,
+                "formatted": "€4.00",
+                "value": 4.0
+            },
+            "shipping_price":
+            {},
+            "original_shipping_price":
+            {},
+            "seller":
+            {
+                "id": 147966,
+                "username": "uirapuru",
+                "avatar_url": "https://i.discogs.com/8woxdBryVDhrSFgnr1jCpXTqUd5GwyZV7tqNsbpQAXU/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE0Nzk2Ni0x/NjA3Njk2MDU1Lmpw/ZWc.jpeg",
+                "stats":
+                {
+                    "rating": "100.0",
+                    "stars": 5.0,
+                    "total": 556
+                },
+                "min_order_total": 0.0,
+                "html_url": "https://www.discogs.com/user/uirapuru",
+                "uid": 147966,
+                "url": "https://api.discogs.com/users/uirapuru",
+                "payment": "PayPal Commerce",
+                "shipping": "Buyer pays shipping costs. Payment is expected within 3 days after receiving invoice. Items or orders over 50€ will only be shipped by registered/insured mail – please ask for rates. Insurance is extra. Double LP's, heavy gatefolds and 2CD's might cause extra shipping costs. Please note that I cannot be responsible for uninsured items after they've shipped.",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            "release":
+            {
+                "thumbnail": "",
+                "description": "Palasina - For A Little While (CD, Album)",
+                "images":
+                [],
+                "artist": "Palasina",
+                "format": "CD, Album",
+                "resource_url": "https://api.discogs.com/releases/1389388",
+                "title": "For A Little While",
+                "year": 2008,
+                "id": 1389388,
+                "catalog_number": "KAMUCD002",
+                "stats":
+                {
+                    "community":
+                    {
+                        "in_wantlist": 3,
+                        "in_collection": 15
+                    }
+                }
+            }
+        }
+    ]
+}
