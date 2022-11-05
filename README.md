@@ -11,7 +11,6 @@ currently supports:
 - search by artist to see their vinyl discography
 
 in development:
-- more than 50 results for the above feature
 - error handling for searches
 - links to sellers
 - historical price information

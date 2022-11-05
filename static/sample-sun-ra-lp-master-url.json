@@ -1,0 +1,219 @@
+{
+    "id": 143593,
+    "main_release": 1067119,
+    "most_recent_release": 1858235,
+    "resource_url": "https://api.discogs.com/masters/143593",
+    "uri": "https://www.discogs.com/master/143593-Sun-Ra-Live-In-Paris-At-The-Gibus",
+    "versions_url": "https://api.discogs.com/masters/143593/versions",
+    "main_release_url": "https://api.discogs.com/releases/1067119",
+    "most_recent_release_url": "https://api.discogs.com/releases/1858235",
+    "num_for_sale": 23,
+    "lowest_price": 13.73,
+    "images":
+    [
+        {
+            "type": "primary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 370,
+            "height": 373
+        },
+        {
+            "type": "secondary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 600,
+            "height": 582
+        }
+    ],
+    "genres":
+    [
+        "Jazz"
+    ],
+    "styles":
+    [
+        "Free Jazz"
+    ],
+    "year": 1973,
+    "tracklist":
+    [
+        {
+            "position": "A1",
+            "type_": "track",
+            "title": "Spontaneous Simplicity",
+            "extraartists":
+            [
+                {
+                    "name": "Marshall Allen",
+                    "anv": "",
+                    "join": "",
+                    "role": "Flute [Solo]",
+                    "tracks": "",
+                    "id": 252033,
+                    "resource_url": "https://api.discogs.com/artists/252033"
+                },
+                {
+                    "name": "Sun Ra",
+                    "anv": "",
+                    "join": "",
+                    "role": "Keyboards [Electronic Keyboards Solo], Vibraphone [Vibraharp Solo]",
+                    "tracks": "",
+                    "id": 35328,
+                    "resource_url": "https://api.discogs.com/artists/35328"
+                }
+            ],
+            "duration": "4:00"
+        },
+        {
+            "position": "A2",
+            "type_": "track",
+            "title": "Lights On A Satellite",
+            "duration": "5:25"
+        },
+        {
+            "position": "A3",
+            "type_": "track",
+            "title": "Ombre Monde 2",
+            "extraartists":
+            [
+                {
+                    "name": "Sun Ra",
+                    "anv": "",
+                    "join": "",
+                    "role": "Organ [Solo]",
+                    "tracks": "",
+                    "id": 35328,
+                    "resource_url": "https://api.discogs.com/artists/35328"
+                },
+                {
+                    "name": "John Gilmore",
+                    "anv": "",
+                    "join": "",
+                    "role": "Tenor Saxophone [Solo]",
+                    "tracks": "",
+                    "id": 252034,
+                    "resource_url": "https://api.discogs.com/artists/252034"
+                },
+                {
+                    "name": "Kwame Hadi",
+                    "anv": "",
+                    "join": "",
+                    "role": "Trumpet [Solo]",
+                    "tracks": "",
+                    "id": 252027,
+                    "resource_url": "https://api.discogs.com/artists/252027"
+                }
+            ],
+            "duration": "12:15"
+        },
+        {
+            "position": "B1",
+            "type_": "track",
+            "title": "King Porter Stomp",
+            "extraartists":
+            [
+                {
+                    "name": "Jelly Roll Morton",
+                    "anv": "",
+                    "join": "",
+                    "role": "Composed By",
+                    "tracks": "",
+                    "id": 309976,
+                    "resource_url": "https://api.discogs.com/artists/309976"
+                },
+                {
+                    "name": "John Gilmore",
+                    "anv": "",
+                    "join": "",
+                    "role": "Tenor Saxophone [Solo]",
+                    "tracks": "",
+                    "id": 252034,
+                    "resource_url": "https://api.discogs.com/artists/252034"
+                },
+                {
+                    "name": "Akh Tal Ebah",
+                    "anv": "",
+                    "join": "",
+                    "role": "Trumpet [Muted Trumpet Solo]",
+                    "tracks": "",
+                    "id": 252032,
+                    "resource_url": "https://api.discogs.com/artists/252032"
+                },
+                {
+                    "name": "Kwame Hadi",
+                    "anv": "",
+                    "join": "",
+                    "role": "Trumpet [Unmuted Trumpet Solo]",
+                    "tracks": "",
+                    "id": 252027,
+                    "resource_url": "https://api.discogs.com/artists/252027"
+                }
+            ],
+            "duration": "2:50"
+        },
+        {
+            "position": "B2",
+            "type_": "track",
+            "title": "Salutations From The Universe",
+            "extraartists":
+            [
+                {
+                    "name": "Sun Ra",
+                    "anv": "",
+                    "join": "",
+                    "role": "Voice, Synthesizer [Moog], Organ [Space Matter Organ Solo]",
+                    "tracks": "",
+                    "id": 35328,
+                    "resource_url": "https://api.discogs.com/artists/35328"
+                }
+            ],
+            "duration": "14:53"
+        },
+        {
+            "position": "B3",
+            "type_": "track",
+            "title": "Calling Planet Earth",
+            "duration": "1:22"
+        }
+    ],
+    "artists":
+    [
+        {
+            "name": "Sun Ra",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 35328,
+            "resource_url": "https://api.discogs.com/artists/35328"
+        }
+    ],
+    "title": "Live In Paris At The \"Gibus\"",
+    "data_quality": "Correct",
+    "videos":
+    [
+        {
+            "uri": "https://www.youtube.com/watch?v=jTEugXElmQM",
+            "title": "Sun Ra -  Lights on a Satellite [Live in Paris at the Gibus] 1974",
+            "description": "Sun Ra -  Lights on a Satellite [Live in Paris at the Gibus] 1974\r\n\r\nHere's another addition to the Sun Ra discography. Live In Paris - At The Gibus got its initial release in 1974 (in France) on the Atlantic label. It got a beautiful re-release in It",
+            "duration": 332,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=uuirXgyT_-s",
+            "title": "Sun Ra - Spontaneous Simplicity",
+            "description": "Sun Ra and His Arkestra\r\nSpontaneous Simplicity\r\nLive In France - At The Gibus\r\n1973 Warner Brothers\r\n\r\nAlso available on Psychedelic Jazz And Soul Part 1 \r\n\r\nhttp://www.myspace.com/thewayoutsound",
+            "duration": 246,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=1P_J9iOWbTw",
+            "title": "LIVE IN PARIS AT THE GIBUS   SUN RA AND HIS INTERGALACTIC RESEARCH ARKESTRA [FULL ALBUM AUDIO]",
+            "description": "0:00 Spontaneous Simplicity\n4:05 Lights on a Satellite\n9:35 Ombre Monde #2 (The Shadow World)\n21:52 King Porter Stomp\n24:45 Salutations From the Universe\n39:40 Calling Planet Earth\n\nRecorded at The Gibus, Paris, France between 12 and 19 October 1973.\nRele",
+            "duration": 0,
+            "embed": true
+        }
+    ]
+}

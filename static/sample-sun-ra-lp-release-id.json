@@ -1,0 +1,743 @@
+{
+    "id": 1067119,
+    "status": "Accepted",
+    "year": 1973,
+    "resource_url": "https://api.discogs.com/releases/1067119",
+    "uri": "https://www.discogs.com/release/1067119-Sun-Ra-Live-In-Paris-At-The-Gibus",
+    "artists":
+    [
+        {
+            "name": "Sun Ra",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 35328,
+            "resource_url": "https://api.discogs.com/artists/35328"
+        }
+    ],
+    "artists_sort": "Sun Ra",
+    "labels":
+    [
+        {
+            "name": "Atlantic",
+            "catno": "40 540",
+            "entity_type": "1",
+            "entity_type_name": "Label",
+            "id": 681,
+            "resource_url": "https://api.discogs.com/labels/681"
+        }
+    ],
+    "series":
+    [],
+    "companies":
+    [
+        {
+            "name": "Gibus Club",
+            "catno": "",
+            "entity_type": "23",
+            "entity_type_name": "Recorded At",
+            "id": 407921,
+            "resource_url": "https://api.discogs.com/labels/407921"
+        }
+    ],
+    "formats":
+    [
+        {
+            "name": "Vinyl",
+            "qty": "1",
+            "text": "Gatefold",
+            "descriptions":
+            [
+                "LP",
+                "Album"
+            ]
+        }
+    ],
+    "data_quality": "Needs Vote",
+    "community":
+    {
+        "have": 79,
+        "want": 221,
+        "rating":
+        {
+            "count": 12,
+            "average": 4.58
+        },
+        "submitter":
+        {
+            "username": "uirapuru",
+            "resource_url": "https://api.discogs.com/users/uirapuru"
+        },
+        "contributors":
+        [
+            {
+                "username": "uirapuru",
+                "resource_url": "https://api.discogs.com/users/uirapuru"
+            },
+            {
+                "username": "xdefenestratorx",
+                "resource_url": "https://api.discogs.com/users/xdefenestratorx"
+            },
+            {
+                "username": "dalhembe",
+                "resource_url": "https://api.discogs.com/users/dalhembe"
+            },
+            {
+                "username": "jazzselector",
+                "resource_url": "https://api.discogs.com/users/jazzselector"
+            },
+            {
+                "username": "soundprojector",
+                "resource_url": "https://api.discogs.com/users/soundprojector"
+            },
+            {
+                "username": "yuhann",
+                "resource_url": "https://api.discogs.com/users/yuhann"
+            },
+            {
+                "username": "knup75",
+                "resource_url": "https://api.discogs.com/users/knup75"
+            },
+            {
+                "username": "DiscogsUpdateBot",
+                "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"
+            },
+            {
+                "username": "phallancz",
+                "resource_url": "https://api.discogs.com/users/phallancz"
+            },
+            {
+                "username": "ElektraRecords",
+                "resource_url": "https://api.discogs.com/users/ElektraRecords"
+            },
+            {
+                "username": "BooomBap",
+                "resource_url": "https://api.discogs.com/users/BooomBap"
+            },
+            {
+                "username": "pasteque",
+                "resource_url": "https://api.discogs.com/users/pasteque"
+            }
+        ],
+        "data_quality": "Needs Vote",
+        "status": "Accepted"
+    },
+    "format_quantity": 1,
+    "date_added": "2008-01-22T13:33:13-08:00",
+    "date_changed": "2022-08-12T08:54:51-07:00",
+    "num_for_sale": 8,
+    "lowest_price": 39.22,
+    "master_id": 143593,
+    "master_url": "https://api.discogs.com/masters/143593",
+    "title": "Live In Paris At The \"Gibus\"",
+    "country": "France",
+    "released": "1973",
+    "notes": "Additional title on labels: Live At The \"Gibus\" In Paris.",
+    "released_formatted": "1973",
+    "identifiers":
+    [
+        {
+            "type": "Price Code",
+            "value": "Ⓑ"
+        },
+        {
+            "type": "Rights Society",
+            "value": "SACEM SACD SDRM SGDL"
+        }
+    ],
+    "videos":
+    [
+        {
+            "uri": "https://www.youtube.com/watch?v=jTEugXElmQM",
+            "title": "Sun Ra -  Lights on a Satellite [Live in Paris at the Gibus] 1974",
+            "description": "Sun Ra -  Lights on a Satellite [Live in Paris at the Gibus] 1974\r\n\r\nHere's another addition to the Sun Ra discography. Live In Paris - At The Gibus got its initial release in 1974 (in France) on the Atlantic label. It got a beautiful re-release in It",
+            "duration": 332,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=uuirXgyT_-s",
+            "title": "Sun Ra - Spontaneous Simplicity",
+            "description": "Sun Ra and His Arkestra\r\nSpontaneous Simplicity\r\nLive In France - At The Gibus\r\n1973 Warner Brothers\r\n\r\nAlso available on Psychedelic Jazz And Soul Part 1 \r\n\r\nhttp://www.myspace.com/thewayoutsound",
+            "duration": 246,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=1P_J9iOWbTw",
+            "title": "LIVE IN PARIS AT THE GIBUS   SUN RA AND HIS INTERGALACTIC RESEARCH ARKESTRA [FULL ALBUM AUDIO]",
+            "description": "0:00 Spontaneous Simplicity\n4:05 Lights on a Satellite\n9:35 Ombre Monde #2 (The Shadow World)\n21:52 King Porter Stomp\n24:45 Salutations From the Universe\n39:40 Calling Planet Earth\n\nRecorded at The Gibus, Paris, France between 12 and 19 October 1973.\nRele",
+            "duration": 0,
+            "embed": true
+        }
+    ],
+    "genres":
+    [
+        "Jazz"
+    ],
+    "styles":
+    [
+        "Free Jazz"
+    ],
+    "tracklist":
+    [
+        {
+            "position": "A1",
+            "type_": "track",
+            "title": "Spontaneous Simplicity",
+            "extraartists":
+            [
+                {
+                    "name": "Marshall Allen",
+                    "anv": "",
+                    "join": "",
+                    "role": "Flute [Solo]",
+                    "tracks": "",
+                    "id": 252033,
+                    "resource_url": "https://api.discogs.com/artists/252033"
+                },
+                {
+                    "name": "Sun Ra",
+                    "anv": "",
+                    "join": "",
+                    "role": "Keyboards [Electronic Keyboards Solo], Vibraphone [Vibraharp Solo]",
+                    "tracks": "",
+                    "id": 35328,
+                    "resource_url": "https://api.discogs.com/artists/35328"
+                }
+            ],
+            "duration": "4:00"
+        },
+        {
+            "position": "A2",
+            "type_": "track",
+            "title": "Lights On A Satellite",
+            "duration": "5:25"
+        },
+        {
+            "position": "A3",
+            "type_": "track",
+            "title": "Ombre Monde 2",
+            "extraartists":
+            [
+                {
+                    "name": "Sun Ra",
+                    "anv": "",
+                    "join": "",
+                    "role": "Organ [Solo]",
+                    "tracks": "",
+                    "id": 35328,
+                    "resource_url": "https://api.discogs.com/artists/35328"
+                },
+                {
+                    "name": "John Gilmore",
+                    "anv": "",
+                    "join": "",
+                    "role": "Tenor Saxophone [Solo]",
+                    "tracks": "",
+                    "id": 252034,
+                    "resource_url": "https://api.discogs.com/artists/252034"
+                },
+                {
+                    "name": "Kwame Hadi",
+                    "anv": "",
+                    "join": "",
+                    "role": "Trumpet [Solo]",
+                    "tracks": "",
+                    "id": 252027,
+                    "resource_url": "https://api.discogs.com/artists/252027"
+                }
+            ],
+            "duration": "12:15"
+        },
+        {
+            "position": "B1",
+            "type_": "track",
+            "title": "King Porter Stomp",
+            "extraartists":
+            [
+                {
+                    "name": "Jelly Roll Morton",
+                    "anv": "",
+                    "join": "",
+                    "role": "Composed By",
+                    "tracks": "",
+                    "id": 309976,
+                    "resource_url": "https://api.discogs.com/artists/309976"
+                },
+                {
+                    "name": "John Gilmore",
+                    "anv": "",
+                    "join": "",
+                    "role": "Tenor Saxophone [Solo]",
+                    "tracks": "",
+                    "id": 252034,
+                    "resource_url": "https://api.discogs.com/artists/252034"
+                },
+                {
+                    "name": "Akh Tal Ebah",
+                    "anv": "",
+                    "join": "",
+                    "role": "Trumpet [Muted Trumpet Solo]",
+                    "tracks": "",
+                    "id": 252032,
+                    "resource_url": "https://api.discogs.com/artists/252032"
+                },
+                {
+                    "name": "Kwame Hadi",
+                    "anv": "",
+                    "join": "",
+                    "role": "Trumpet [Unmuted Trumpet Solo]",
+                    "tracks": "",
+                    "id": 252027,
+                    "resource_url": "https://api.discogs.com/artists/252027"
+                }
+            ],
+            "duration": "2:50"
+        },
+        {
+            "position": "B2",
+            "type_": "track",
+            "title": "Salutations From The Universe",
+            "extraartists":
+            [
+                {
+                    "name": "Sun Ra",
+                    "anv": "",
+                    "join": "",
+                    "role": "Voice, Synthesizer [Moog], Organ [Space Matter Organ Solo]",
+                    "tracks": "",
+                    "id": 35328,
+                    "resource_url": "https://api.discogs.com/artists/35328"
+                }
+            ],
+            "duration": "14:53"
+        },
+        {
+            "position": "B3",
+            "type_": "track",
+            "title": "Calling Planet Earth",
+            "duration": "1:22"
+        }
+    ],
+    "extraartists":
+    [
+        {
+            "name": "Danny Davis",
+            "anv": "",
+            "join": "",
+            "role": "Alto Clarinet",
+            "tracks": "",
+            "id": 252024,
+            "resource_url": "https://api.discogs.com/artists/252024"
+        },
+        {
+            "name": "Danny Davis",
+            "anv": "",
+            "join": "",
+            "role": "Alto Saxophone",
+            "tracks": "",
+            "id": 252024,
+            "resource_url": "https://api.discogs.com/artists/252024"
+        },
+        {
+            "name": "Marshall Allen",
+            "anv": "",
+            "join": "",
+            "role": "Alto Saxophone",
+            "tracks": "",
+            "id": 252033,
+            "resource_url": "https://api.discogs.com/artists/252033"
+        },
+        {
+            "name": "Georges Auger",
+            "anv": "",
+            "join": "",
+            "role": "Art Direction",
+            "tracks": "",
+            "id": 2126799,
+            "resource_url": "https://api.discogs.com/artists/2126799"
+        },
+        {
+            "name": "Danny Ray Thompson",
+            "anv": "Danny Thompson",
+            "join": "",
+            "role": "Baritone Saxophone",
+            "tracks": "",
+            "id": 252039,
+            "resource_url": "https://api.discogs.com/artists/252039"
+        },
+        {
+            "name": "Ronnie Boykins",
+            "anv": "",
+            "join": "",
+            "role": "Bass",
+            "tracks": "",
+            "id": 256607,
+            "resource_url": "https://api.discogs.com/artists/256607"
+        },
+        {
+            "name": "Eloe Omoe",
+            "anv": "Elo Omoe",
+            "join": "",
+            "role": "Bass Clarinet",
+            "tracks": "",
+            "id": 252022,
+            "resource_url": "https://api.discogs.com/artists/252022"
+        },
+        {
+            "name": "James Jacson",
+            "anv": "James Jackson",
+            "join": "",
+            "role": "Bassoon",
+            "tracks": "",
+            "id": 263447,
+            "resource_url": "https://api.discogs.com/artists/263447"
+        },
+        {
+            "name": "Alzo Wright",
+            "anv": "",
+            "join": "",
+            "role": "Cello, Viola",
+            "tracks": "",
+            "id": 367762,
+            "resource_url": "https://api.discogs.com/artists/367762"
+        },
+        {
+            "name": "Odun",
+            "anv": "",
+            "join": "",
+            "role": "Congas",
+            "tracks": "",
+            "id": 252031,
+            "resource_url": "https://api.discogs.com/artists/252031"
+        },
+        {
+            "name": "Shahib",
+            "anv": "",
+            "join": "",
+            "role": "Congas",
+            "tracks": "",
+            "id": 905741,
+            "resource_url": "https://api.discogs.com/artists/905741"
+        },
+        {
+            "name": "Alzo Wright",
+            "anv": "",
+            "join": "",
+            "role": "Drums",
+            "tracks": "",
+            "id": 367762,
+            "resource_url": "https://api.discogs.com/artists/367762"
+        },
+        {
+            "name": "John Gilmore",
+            "anv": "",
+            "join": "",
+            "role": "Drums",
+            "tracks": "",
+            "id": 252034,
+            "resource_url": "https://api.discogs.com/artists/252034"
+        },
+        {
+            "name": "Tommy Hunter",
+            "anv": "Thomas Hunter",
+            "join": "",
+            "role": "Drums",
+            "tracks": "",
+            "id": 367763,
+            "resource_url": "https://api.discogs.com/artists/367763"
+        },
+        {
+            "name": "Hubert Lemaire",
+            "anv": "",
+            "join": "",
+            "role": "Engineer [Recording]",
+            "tracks": "",
+            "id": 905740,
+            "resource_url": "https://api.discogs.com/artists/905740"
+        },
+        {
+            "name": "Jean-Claude Chabin",
+            "anv": "Jean Claude Chabin",
+            "join": "",
+            "role": "Engineer [Recording]",
+            "tracks": "",
+            "id": 1189094,
+            "resource_url": "https://api.discogs.com/artists/1189094"
+        },
+        {
+            "name": "Michel Salou",
+            "anv": "",
+            "join": "",
+            "role": "Executive-Producer",
+            "tracks": "",
+            "id": 1201912,
+            "resource_url": "https://api.discogs.com/artists/1201912"
+        },
+        {
+            "name": "Akh Tal Ebah",
+            "anv": "",
+            "join": "",
+            "role": "Flugelhorn",
+            "tracks": "",
+            "id": 252032,
+            "resource_url": "https://api.discogs.com/artists/252032"
+        },
+        {
+            "name": "Kwame Hadi",
+            "anv": "",
+            "join": "",
+            "role": "Flugelhorn",
+            "tracks": "",
+            "id": 252027,
+            "resource_url": "https://api.discogs.com/artists/252027"
+        },
+        {
+            "name": "Danny Davis",
+            "anv": "",
+            "join": "",
+            "role": "Flute",
+            "tracks": "",
+            "id": 252024,
+            "resource_url": "https://api.discogs.com/artists/252024"
+        },
+        {
+            "name": "Danny Ray Thompson",
+            "anv": "Danny Thompson",
+            "join": "",
+            "role": "Flute",
+            "tracks": "",
+            "id": 252039,
+            "resource_url": "https://api.discogs.com/artists/252039"
+        },
+        {
+            "name": "Eloe Omoe",
+            "anv": "Elo Omoe",
+            "join": "",
+            "role": "Flute",
+            "tracks": "",
+            "id": 252022,
+            "resource_url": "https://api.discogs.com/artists/252022"
+        },
+        {
+            "name": "James Jacson",
+            "anv": "James Jackson",
+            "join": "",
+            "role": "Flute",
+            "tracks": "",
+            "id": 263447,
+            "resource_url": "https://api.discogs.com/artists/263447"
+        },
+        {
+            "name": "Sun Ra",
+            "anv": "",
+            "join": "",
+            "role": "Keyboards [Electronic Keyboard Space Instruments], Synthesizer [Moog], Voice",
+            "tracks": "",
+            "id": 35328,
+            "resource_url": "https://api.discogs.com/artists/35328"
+        },
+        {
+            "name": "Delfeil De Ton",
+            "anv": "",
+            "join": "",
+            "role": "Liner Notes",
+            "tracks": "",
+            "id": 1871000,
+            "resource_url": "https://api.discogs.com/artists/1871000"
+        },
+        {
+            "name": "Roger Aralamon Hazoumé",
+            "anv": "Aralamon Hazoume",
+            "join": "",
+            "role": "Other [Dancer]",
+            "tracks": "",
+            "id": 550058,
+            "resource_url": "https://api.discogs.com/artists/550058"
+        },
+        {
+            "name": "Math Samba",
+            "anv": "",
+            "join": "",
+            "role": "Other [Fire Eater]",
+            "tracks": "",
+            "id": 550055,
+            "resource_url": "https://api.discogs.com/artists/550055"
+        },
+        {
+            "name": "James Jacson",
+            "anv": "James Jackson",
+            "join": "",
+            "role": "Percussion",
+            "tracks": "",
+            "id": 263447,
+            "resource_url": "https://api.discogs.com/artists/263447"
+        },
+        {
+            "name": "Math Samba",
+            "anv": "",
+            "join": "",
+            "role": "Percussion",
+            "tracks": "",
+            "id": 550055,
+            "resource_url": "https://api.discogs.com/artists/550055"
+        },
+        {
+            "name": "Odun",
+            "anv": "",
+            "join": "",
+            "role": "Percussion",
+            "tracks": "",
+            "id": 252031,
+            "resource_url": "https://api.discogs.com/artists/252031"
+        },
+        {
+            "name": "Roger Aralamon Hazoumé",
+            "anv": "Aralamon Hazoume",
+            "join": "",
+            "role": "Percussion",
+            "tracks": "",
+            "id": 550058,
+            "resource_url": "https://api.discogs.com/artists/550058"
+        },
+        {
+            "name": "Shahib",
+            "anv": "",
+            "join": "",
+            "role": "Percussion",
+            "tracks": "",
+            "id": 905741,
+            "resource_url": "https://api.discogs.com/artists/905741"
+        },
+        {
+            "name": "Horace",
+            "anv": "",
+            "join": "",
+            "role": "Photography",
+            "tracks": "",
+            "id": 159100,
+            "resource_url": "https://api.discogs.com/artists/159100"
+        },
+        {
+            "name": "Marshall Allen",
+            "anv": "",
+            "join": "",
+            "role": "Piccolo Flute, Oboe",
+            "tracks": "",
+            "id": 252033,
+            "resource_url": "https://api.discogs.com/artists/252033"
+        },
+        {
+            "name": "Olivier Zdrzalik",
+            "anv": "",
+            "join": "",
+            "role": "Producer [Assistant Producer]",
+            "tracks": "",
+            "id": 1501782,
+            "resource_url": "https://api.discogs.com/artists/1501782"
+        },
+        {
+            "name": "Sun Ra",
+            "anv": "",
+            "join": "",
+            "role": "Producer, Arranged By",
+            "tracks": "",
+            "id": 35328,
+            "resource_url": "https://api.discogs.com/artists/35328"
+        },
+        {
+            "name": "John Gilmore",
+            "anv": "",
+            "join": "",
+            "role": "Tenor Saxophone",
+            "tracks": "",
+            "id": 252034,
+            "resource_url": "https://api.discogs.com/artists/252034"
+        },
+        {
+            "name": "Akh Tal Ebah",
+            "anv": "",
+            "join": "",
+            "role": "Trumpet",
+            "tracks": "",
+            "id": 252032,
+            "resource_url": "https://api.discogs.com/artists/252032"
+        },
+        {
+            "name": "Kwame Hadi",
+            "anv": "",
+            "join": "",
+            "role": "Trumpet",
+            "tracks": "",
+            "id": 252027,
+            "resource_url": "https://api.discogs.com/artists/252027"
+        },
+        {
+            "name": "Roger Aralamon Hazoumé",
+            "anv": "Aralamon Hazoume",
+            "join": "",
+            "role": "Vibraphone [Balafon]",
+            "tracks": "",
+            "id": 550058,
+            "resource_url": "https://api.discogs.com/artists/550058"
+        },
+        {
+            "name": "Cheryl Banks",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Space Ethnic Voices]",
+            "tracks": "",
+            "id": 252030,
+            "resource_url": "https://api.discogs.com/artists/252030"
+        },
+        {
+            "name": "Judith Holton",
+            "anv": "",
+            "join": "",
+            "role": "Voice [Space Ethnic Voices]",
+            "tracks": "",
+            "id": 252026,
+            "resource_url": "https://api.discogs.com/artists/252026"
+        },
+        {
+            "name": "June Tyson",
+            "anv": "",
+            "join": "",
+            "role": "Voice [Space Ethnic Voices]",
+            "tracks": "",
+            "id": 252035,
+            "resource_url": "https://api.discogs.com/artists/252035"
+        },
+        {
+            "name": "Ruth Wright",
+            "anv": "",
+            "join": "",
+            "role": "Voice [Space Ethnic Voices]",
+            "tracks": "",
+            "id": 252028,
+            "resource_url": "https://api.discogs.com/artists/252028"
+        }
+    ],
+    "images":
+    [
+        {
+            "type": "primary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 370,
+            "height": 373
+        },
+        {
+            "type": "secondary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 600,
+            "height": 582
+        }
+    ],
+    "thumb": "",
+    "estimated_weight": 230,
+    "blocked_from_sale": false
+}

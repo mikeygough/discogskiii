@@ -71,8 +71,9 @@ def sample_request_search():
 @app.route("/sample-marketplace")
 def sample_marketplace():
 
-    listing_id = '2134134359'
-    # r = requests.get("https://api.discogs.com/marketplace/stats/143615").text
+    # note that listing id is specific to a listing.
+    # it is NOT a release id.
+    listing_id = '2047141883'
     r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id, CONSUMER_KEY, CONSUMER_SECRET)).text
 
     return render_template("sample-marketplace.html", r=r)
