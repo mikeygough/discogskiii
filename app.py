@@ -26,33 +26,40 @@ def sample_request_search():
     if request.method == "POST":
         artist = request.form.get("artist")
         
-        r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
-
-        # turn string into json
-        r_json = json.loads(r)
+        # pagination
+        # first get number of pages:
+        num_pages = json.loads(requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text)['pagination']['pages']
 
         # initialize empty for masters
         masters = []
         uris = []
         year = []
         thumb = []
-        
-        # get album title
-        for result in r_json["results"]:
-            try:
-                masters.append(result["title"])
-                uris.append(result["uri"])
-                year.append(result["year"])
-                thumb.append(result["thumb"])
-            except:
-                pass
 
+        # iterate through number of pages
+        for page in range(1, num_pages + 1):
+            # get data
+            r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&page={}&key={}&secret={}".format(artist, page, CONSUMER_KEY, CONSUMER_SECRET)).text
+
+            # turn string into json
+            r_json = json.loads(r)
+
+            # get album title, uri, year, and thumbnail
+            for result in r_json["results"]:
+                try:
+                    masters.append(result["title"])
+                    uris.append(result["uri"])
+                    year.append(result["year"])
+                    thumb.append(result["thumb"])
+                except:
+                    pass
+
+        # zip data
         data = list(zip(masters, uris, year, thumb))
 
         # sort by year
-        data.sort(key=lambda y: y[2])
+        data = sorted(data, key = lambda x: x[2])
         base_url = 'https://www.discogs.com'
-        print(thumb[0])
 
         return render_template("sample-request-search.html",
                                data=data, base_url=base_url)
