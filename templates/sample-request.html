@@ -2,6 +2,8 @@
 
 {% block body %}
     
-    {{ r }}
+    <h4>Request:</h4>
+    <h5>https://api.discogs.com/database/search?artist={{ artist }}&type=master&format=vinyl</h5>
+    <pre id="json">{{ r_json }}</pre>
 
 {% endblock %}

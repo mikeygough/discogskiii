@@ -9,11 +9,20 @@ discogskiii is a flask applicaiton built using the [discogs api](https://www.dis
 
 currently supports:
 - search by artist to see their vinyl discography
+- search by a user's ID to see all records they have listed for sale
+    i'd like to build out this table to support the albumn name, condition, price, etc.
 
 in development:
 - error handling for searches
 - links to sellers
+    currently supported via /user-listings which displays all items available for sale by user_id.
+    i'd like to tie in some functionality that allows the user to search by artist, and see all records for sale by that artist. or click an album from the artist-search page and see how many of that album are for sale. either would require me to loop through seller information since discogs does not support marketplace lookups via their api.
 - historical price information
+
+
+issues:
+- long load times. im doing the pagination before loading the page. maybe i can load the first x results,
+and subsequently load more as the user scrolls?
 
 all data is taken from discogs.com via their api. i ❤️ you discogs.
 

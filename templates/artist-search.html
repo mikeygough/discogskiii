@@ -3,11 +3,11 @@
 {% block body %}
     
     <h3>Search an artist and see their master releases</h3>
-    <p>*for now only shows albums for which discogs has all data. **vinyl only 🐱‍👓</p>
+    <p>*for now only shows vinyl albums for which discogs has all data.</p>
 
     <br>
 
-    <form action="/sample-request-search" method="post">
+    <form action="/artist-search" method="post">
         <input autocomplete="off" autofocus id="artist" name="artist" placeholder="Artist" type="text">
         <button type="submit">Search</button>
     </form>

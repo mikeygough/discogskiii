@@ -2,6 +2,8 @@
 
 {% block body %}
 
-    {{ r }}
+    <h4>Request:</h4>
+    <h5>https://api.discogs.com/marketplace/listings/{{ listing_id }}</h5>
+    <pre id="json">{{ r_json }}</pre>
 
 {% endblock %}

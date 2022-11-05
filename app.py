@@ -11,16 +11,9 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/sample-request")
-def sample_request():
-    artist="sun ra"
 
-    r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
-    return render_template("sample-request.html", r=r)
-
-
-@app.route("/sample-request-search", methods=["GET", "POST"])
-def sample_request_search():
+@app.route("/artist-search", methods=["GET", "POST"])
+def artist_search():
     
     # post
     if request.method == "POST":
@@ -61,72 +54,82 @@ def sample_request_search():
         data = sorted(data, key = lambda x: x[2])
         base_url = 'https://www.discogs.com'
 
-        return render_template("sample-request-search.html",
+        return render_template("artist-search.html",
                                data=data, base_url=base_url)
     
     # get
     else:
-        return render_template("sample-request-search.html")
+        return render_template("artist-search.html")
+
+
+@app.route("/user-listings", methods=["GET", "POST"])
+def user_listings():
+
+    # good test user = 'uirapuru'
+    # post
+    if request.method == "POST":
+        user_id = request.form.get("user_id")
+    
+        # pagination
+        # first get number of pages:
+        num_pages = json.loads(requests.get("https://api.discogs.com/users/{}/inventory".format(user_id)).text)['pagination']['pages']
+
+        # initialize empty for masters
+        ids = []
+        uris = []
+
+        # iterate through number of pages
+        for page in range(1, num_pages + 1):
+            # get data
+            r = requests.get("https://api.discogs.com/users/{}/inventory".format(user_id)).text
+
+            # turn string into json
+            r_json = json.loads(r)
+
+            # get data
+            for result in r_json["listings"]:
+                try:
+                    ids.append(result["id"])
+                    uris.append(result["uri"])
+                except:
+                    pass
+
+        # zip data
+        data = list(zip(ids, uris))
+
+        return render_template("user-listings.html",
+                               data=data)
+
+    # get
+    else:
+        return render_template("user-listings.html")
+
+
+@app.route("/sample-request")
+def sample_request():
+    
+    # set artist
+    artist="sun ra"
+    r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text
+
+    # turn string into prettyjson
+    r_json = json.loads(r)
+    r_json = json.dumps(r_json, indent=4)
+    
+    return render_template("sample-request.html",
+                           artist=artist, r_json=r_json)
 
 
 @app.route("/sample-marketplace")
 def sample_marketplace():
 
-    # note that listing id is specific to a listing.
-    # it is NOT a release id.
-    # TESTING
-    listing_id = '2047141883'
-    listing_id = '193145788'
-    r = requests.get("https://api.discogs.com/marketplace/listings/{}&key={}&secret={}".format(listing_id, CONSUMER_KEY, CONSUMER_SECRET)).text
+    # set listing id. note this is specific per listing, and not the master id.
+    listing_id = '2134134359'
+    r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id)).text
 
-    return render_template("sample-marketplace.html", r=r)
+    # turn string into pretty json
+    r_json = json.loads(r)
+    r_json = json.dumps(r_json, indent=4)
 
-
-@app.route("/sample-release-stats")
-def sample_release_stats():
-
-    release_id = '1067119'
-    r = requests.get("https://api.discogs.com/marketplace/stats/{}&key={}&secret={}".format(release_id, CONSUMER_KEY, CONSUMER_SECRET)).text
-
-    return render_template("sample-release-stats.html", r=r)
-
-
-@app.route("/user-listings")
-def user_listings():
-
-    user = 'uirapuru'
-    # pagination
-    # first get number of pages:
-    num_pages = json.loads(requests.get("https://api.discogs.com/users/{}/inventory".format(user)).text)['pagination']['pages']
-
-    print(num_pages)
-    # initialize empty for masters
-    ids = []
-    uris = []
-
-    # iterate through number of pages
-    for page in range(1, num_pages + 1):
-        # get data
-        r = requests.get("https://api.discogs.com/users/{}/inventory".format(user)).text
-
-        # turn string into json
-        r_json = json.loads(r)
-
-        # get data
-        for result in r_json["listings"]:
-            try:
-                ids.append(result["id"])
-                uris.append(result["uri"])
-            except:
-                pass
-
-    # zip data
-    data = list(zip(ids, uris))
-
-    return render_template("sample-user-listings.html",
-                           data=data)
-
-    print(r)
-
-    
-    return render_template("sample-user-listings.html")
+    return render_template("sample-marketplace.html", 
+                           listing_id=listing_id, r_json=r_json)
