@@ -14,8 +14,6 @@ currently supports:
 
 in development:
 - CSS Styling
-    * Import Bootstrap
-    * Nav Bar
 - error handling for searches
 - links to sellers
     currently supported via /user-listings which displays all items available for sale by user_id.
