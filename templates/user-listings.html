@@ -1,28 +1,31 @@
 {% extends "layout.html" %}
 
 {% block body %}
-    <h3>Search a user and see their inventory</h3>
+    <main role="main" class="container">
 
-    <br>
+        <h3>Search a user and see their inventory</h3>
 
-    <form action="/user-listings" method="post">
-        <input autocomplete="off" autofocus id="user_id" name="user_id" placeholder="Username" type="text">
-        <button type="submit">Search</button>
-    </form>
+        <br>
 
-    <br>
+        <form action="/user-listings" method="post">
+            <input autocomplete="off" autofocus id="user_id" name="user_id" placeholder="Username" type="text">
+            <button type="submit">Search</button>
+        </form>
 
-    <table>
-        <tr>
-            <th id="ids">ID</th>
-            <th id="uri">URI</th>
-        </tr>
-        {% for d in data %}
-        <tr>
-            <td><a href={{ d[1] }} target="_blank" rel="noopener noreferrer">{{ d[0] }}</a></td>
-            <td id="uri">{{ d[1] }}</td>
-        </tr>
-        {% endfor %}
-    </table>
-    
+        <br>
+
+        <table>
+            <tr>
+                <th id="ids">ID</th>
+                <th id="uri">URI</th>
+            </tr>
+            {% for d in data %}
+            <tr>
+                <td><a href={{ d[1] }} target="_blank" rel="noopener noreferrer">{{ d[0] }}</a></td>
+                <td id="uri">{{ d[1] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </main>
+        
 {% endblock %}

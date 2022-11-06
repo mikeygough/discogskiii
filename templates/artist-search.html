@@ -2,31 +2,33 @@
 
 {% block body %}
     
-    <h3>Search an artist and see their master releases</h3>
-    <p>*for now only shows vinyl albums for which discogs has all data.</p>
+    <main role="main" class="container">
+        <h3>Search an artist and see their master releases</h3>
+        <p>*for now only shows vinyl albums for which discogs has all data.</p>
 
-    <br>
+        <br>
 
-    <form action="/artist-search" method="post">
-        <input autocomplete="off" autofocus id="artist" name="artist" placeholder="Artist" type="text">
-        <button type="submit">Search</button>
-    </form>
+        <form action="/artist-search" method="post">
+            <input autocomplete="off" autofocus id="artist" name="artist" placeholder="Artist" type="text">
+            <button type="submit">Search</button>
+        </form>
 
-    <br>
+        <br>
 
-    <table>
-        <tr>
-            <th>Master</th>
-            <th id="table-year">Year</th>
-            <th id="table-album-cover">Album Cover</th>
-        </tr>
-        {% for d in data %}
-        <tr>
-            <td><a href={{ base_url + d[1] }} target="_blank" rel="noopener noreferrer">{{ d[0] }}</a></td>
-            <td id="table-year">{{ d[2] }}</td>
-            <td id="table-album-cover"><img src="{{ d[3] }}" alt="{{ d[0] }} Album Cover" height=75 width=75/></td>
-        </tr>
-        {% endfor %}
-    </table>
+        <table>
+            <tr>
+                <th>Master</th>
+                <th id="table-year">Year</th>
+                <th id="table-album-cover">Album Cover</th>
+            </tr>
+            {% for d in data %}
+            <tr>
+                <td><a href={{ base_url + d[1] }} target="_blank" rel="noopener noreferrer">{{ d[0] }}</a></td>
+                <td id="table-year">{{ d[2] }}</td>
+                <td id="table-album-cover"><img src="{{ d[3] }}" alt="{{ d[0] }} Album Cover" height=75 width=75/></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </main>
 
 {% endblock %}

@@ -24,6 +24,8 @@ in development:
 issues:
 - long load times. im doing the pagination before loading the page. maybe i can load the first x results,
 and subsequently load more as the user scrolls?
+- error if user doesn't exist when searching for a user's inventory. need to design and implement error pages
+- i don't want the table headers on either /user-listings or /artist-search to show until the user makes a post request.
 
 all data is taken from discogs.com via their api. i ❤️ you discogs.
 
