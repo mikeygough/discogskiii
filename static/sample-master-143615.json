@@ -1,0 +1,254 @@
+{
+    "id": 143615,
+    "main_release": 7068875,
+    "most_recent_release": 19672600,
+    "resource_url": "https://api.discogs.com/masters/143615",
+    "uri": "https://www.discogs.com/master/143615-Le-Sun-Ra-And-His-Arkestra-Super-Sonic-Jazz",
+    "versions_url": "https://api.discogs.com/masters/143615/versions",
+    "main_release_url": "https://api.discogs.com/releases/7068875",
+    "most_recent_release_url": "https://api.discogs.com/releases/19672600",
+    "num_for_sale": 141,
+    "lowest_price": 7.0,
+    "images":
+    [
+        {
+            "type": "primary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 600,
+            "height": 601
+        },
+        {
+            "type": "secondary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 600,
+            "height": 599
+        },
+        {
+            "type": "secondary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 600,
+            "height": 565
+        },
+        {
+            "type": "secondary",
+            "uri": "",
+            "resource_url": "",
+            "uri150": "",
+            "width": 600,
+            "height": 566
+        }
+    ],
+    "genres":
+    [
+        "Jazz"
+    ],
+    "styles":
+    [
+        "Bop",
+        "Avant-garde Jazz",
+        "Big Band",
+        "Space-Age"
+    ],
+    "year": 1957,
+    "tracklist":
+    [
+        {
+            "position": "A1",
+            "type_": "track",
+            "title": "India",
+            "duration": ""
+        },
+        {
+            "position": "A2",
+            "type_": "track",
+            "title": "Sunology",
+            "duration": ""
+        },
+        {
+            "position": "A3",
+            "type_": "track",
+            "title": "Advice To Medics",
+            "duration": ""
+        },
+        {
+            "position": "A4",
+            "type_": "track",
+            "title": "Super Blonde",
+            "duration": ""
+        },
+        {
+            "position": "A5",
+            "type_": "track",
+            "title": "Soft Talk",
+            "extraartists":
+            [
+                {
+                    "name": "Julian Priester",
+                    "anv": "Priester",
+                    "join": "",
+                    "role": "Composed By",
+                    "tracks": "",
+                    "id": 264871,
+                    "resource_url": "https://api.discogs.com/artists/264871"
+                }
+            ],
+            "duration": ""
+        },
+        {
+            "position": "A6",
+            "type_": "track",
+            "title": "Sunology - Part 2",
+            "duration": ""
+        },
+        {
+            "position": "B1",
+            "type_": "track",
+            "title": "Kingdom Of Not",
+            "duration": ""
+        },
+        {
+            "position": "B2",
+            "type_": "track",
+            "title": "Portrait Of The Living Sky",
+            "duration": ""
+        },
+        {
+            "position": "B3",
+            "type_": "track",
+            "title": "Blues At Midnight",
+            "duration": ""
+        },
+        {
+            "position": "B4",
+            "type_": "track",
+            "title": "El Is A Sound Of Joy",
+            "duration": ""
+        },
+        {
+            "position": "B5",
+            "type_": "track",
+            "title": "Springtime In Chicago",
+            "duration": ""
+        },
+        {
+            "position": "B6",
+            "type_": "track",
+            "title": "Medicine For A Nightmare",
+            "duration": ""
+        }
+    ],
+    "artists":
+    [
+        {
+            "name": "The Sun Ra Arkestra",
+            "anv": "Le Sun Ra And His Arkestra",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2219395,
+            "resource_url": "https://api.discogs.com/artists/2219395"
+        }
+    ],
+    "title": "Super-Sonic Jazz",
+    "data_quality": "Correct",
+    "videos":
+    [
+        {
+            "uri": "https://www.youtube.com/watch?v=bPQNal63IVI",
+            "title": "Sun Ra And His Arkestra - Super-Sonic Jazz (1957) (Full Album)",
+            "description": "Alto Saxophone – James Scales\nAlto Saxophone, Baritone Saxophone – Pat Patrick\nBaritone Saxophone – Charles Davis\nBass – Victor Sproles\nBass (Electronic) – Wilburn Green\nComposed By – Sun Ra\nDrums – Robert Barry, William Cochran\nPiano – Sun Ra\nProducer – ",
+            "duration": 0,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=cpGUBtDQuCk",
+            "title": "India",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nIndia · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 290,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=OK9CHK4Qmsw",
+            "title": "Sunology, Pt. 1",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nSunology, Pt. 1 · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 346,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=Ceg_z-Ji7_E",
+            "title": "Advice to Medics",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nAdvice to Medics · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 125,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=LYh3d86zq9A",
+            "title": "Super Blonde",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nSuper Blonde · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 156,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=WM9MIeg-2z8",
+            "title": "Soft Talk",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nSoft Talk · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Julian Priester\n\nAuto-generated by YouTube.",
+            "duration": 162,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=70WkaHeWXug",
+            "title": "Sunology, Pt. 2",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nSunology, Pt. 2 · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 426,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=Xd9py9o7cIU",
+            "title": "Kingdom of Not",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nKingdom of Not · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 327,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=xXbKKUIMDkg",
+            "title": "Portrait of the Living Sky",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nPortrait of the Living Sky · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 110,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=KtjkAxBMIkE",
+            "title": "Blues at Midnight",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nBlues at Midnight · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 396,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=vq2H7Fo5i5A",
+            "title": "El is a Sound of Joy (a.k.a. El is the Sound of Joy)",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nEl is a Sound of Joy (a.k.a. El is the Sound of Joy) · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 238,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=nbaPVURXcuM",
+            "title": "Medicine for a Nightmare",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nMedicine for a Nightmare · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 146,
+            "embed": true
+        },
+        {
+            "uri": "https://www.youtube.com/watch?v=AdBKvgK1MLk",
+            "title": "Springtime in Chicago",
+            "description": "Provided to YouTube by Virtual Label LLC\n\nSpringtime in Chicago · Sun Ra\n\nSupersonic Jazz\n\n℗ Enterplanetary Koncepts\n\nReleased on: 2014-04-03\n\nComposer: Sun Ra\n\nAuto-generated by YouTube.",
+            "duration": 233,
+            "embed": true
+        }
+    ]
+}

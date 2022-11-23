@@ -20,6 +20,10 @@ in development:
     i'd like to tie in some functionality that allows the user to search by artist, and see all records for sale by that artist. or click an album from the artist-search page and see how many of that album are for sale. either would require me to loop through seller information since discogs does not support marketplace lookups via their api.
 - historical price information
 
+notes:
+- there is a difference between _release_ and _master_. for example, RELEASE https://www.discogs.com/release/7068875 is different from MASTER https://www.discogs.com/master/143615 though they appear to be the same record.
+- my artist-search returns the master/ url. if we make a get request to that master ID, we do get a result that contains main_release id. which we can then search for specifically. in that response is the submitters and contributors? maybe these are people who have that release for sale? 
+
 
 issues:
 - long load times. im doing the pagination before loading the page. maybe i can load the first x results,
