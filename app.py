@@ -122,14 +122,32 @@ def sample_request():
 
 @app.route("/sample-marketplace")
 def sample_marketplace():
-
     # set listing id. note this is specific per listing, and not the master id.
-    listing_id = '2134134359'
-    r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id)).text
+    LISTING_IDS = ['2047141883', '2077127480', '1976205623', '2235708601', '535808221', '186636848', '1844102899', '1204954685', '2086966004', '2086958048']
+
+    vinyls = []
+    for listing_id in LISTING_IDS:
+        r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id)).text
+
+        r_json = json.loads(r)
+        
+        try:
+            info = {
+            "uri": r_json['uri'],
+            "condition": r_json['condition'],
+            "sleeve_condition": r_json['sleeve_condition'],
+            "price": r_json['price']['value'],
+            "currency": r_json['price']['currency'],
+            "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
+            "in_collection": r_json['release']['stats']['community']['in_collection']}
+            vinyls.append(info)
+        except:
+            pass
+    
+    print(vinyls)
 
     # turn string into pretty json
-    r_json = json.loads(r)
-    r_json = json.dumps(r_json, indent=4)
+    # r_json = json.dumps(r_json, indent=4)
 
     return render_template("sample-marketplace.html", 
-                           listing_id=listing_id, r_json=r_json)
+                           vinyls=vinyls)

@@ -77,12 +77,15 @@ def main():
     print("GET MASTER ID")    
     master_id = get_master_id('sun ra')
     print(master_id)
+    # 143593
     print("GET MAIN RELEASE ID")
     main_release_id = get_main_release_id(master_id)
     print(main_release_id)
+    # 1067119
     print("GET LISTING IDS")
     listing_ids = get_listing_id(main_release_id)
     print(listing_ids)
+    # ['2047141883', '2077127480', '1976205623', '2235708601', '535808221', '186636848', '1844102899', '1204954685', '2086966004', '2086958048']
     print("GET MARKETPLACE LISTING")
     marketplace_listing = get_marketplace_listing(listing_ids[0])
     print(marketplace_listing)

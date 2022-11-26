@@ -2,8 +2,35 @@
 
 {% block body %}
 
-    <h4>Request:</h4>
-    <h5>https://api.discogs.com/marketplace/listings/{{ listing_id }}</h5>
-    <pre id="json">{{ r_json }}</pre>
+    <main role="main" class="container">
+        <h3>Show all copies for sale</h3>
+
+        <br>
+
+        <table>
+            <tr>
+                <th id="uri">URI</th>
+                <th id="condition">Condition</th>
+                <th id="sleeve-condition">Sleeve Condition</th>
+                <th id="price">Price</th>
+                <th id="currency">Currency</th>
+                <th id="in-wantlist">In Wantlist</th>
+                <th id="in-collection">In Collection</th>
+            </tr>
+            {% for vinyl in vinyls %}
+            <tr>
+                <td id="uri"><a href={{ vinyl['uri'] }} target="_blank" rel="noopener noreferrer">{{ vinyl['uri'] }}</td>
+                <td id="condition">{{ vinyl['condition'] }}</td>
+                <td id="sleeve-condition">{{ vinyl['sleeve_condition'] }}</td>
+                <td id="price">{{ vinyl['price'] }}</td>
+                <td id="currency">{{ vinyl['currency'] }}</td>
+                <td id="in-wantlist">{{ vinyl['in_wantlist'] }}</td>
+                <td id="in-colection">{{ vinyl['in_collection'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </main>
 
 {% endblock %}
+
+<td><a href={{ base_url + d[1] }} target="_blank" rel="noopener noreferrer">{{ d[0] }}</a></td>
