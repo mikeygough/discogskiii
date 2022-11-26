@@ -136,7 +136,7 @@ def sample_marketplace():
             "uri": r_json['uri'],
             "condition": r_json['condition'],
             "sleeve_condition": r_json['sleeve_condition'],
-            "price": r_json['price']['value'],
+            "price": round(int(r_json['price']['value']), 2),
             "currency": r_json['price']['currency'],
             "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
             "in_collection": r_json['release']['stats']['community']['in_collection']}
