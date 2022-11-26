@@ -1,0 +1,77 @@
+{
+    "id": 2131277036,
+    "resource_url": "https://api.discogs.com/marketplace/listings/2131277036",
+    "uri": "https://www.discogs.com/sell/item/2131277036",
+    "status": "For Sale",
+    "condition": "Very Good (VG)",
+    "sleeve_condition": "Good Plus (G+)",
+    "comments": "Many light stripes , Don't skip ,play CORRECT    /     Frais de port offert a partir de 80 euros d achats / free shipping worldwide for over 100 Euros of orders ",
+    "ships_from": "France",
+    "posted": "2022-11-17T11:50:35-08:00",
+    "allow_offers": true,
+    "audio": false,
+    "price": {
+        "value": 26.041666666666668,
+        "currency": "USD"
+    },
+    "original_price": {
+        "curr_abbr": "EUR",
+        "curr_id": 3,
+        "formatted": "\u20ac25.00",
+        "value": 25.0
+    },
+    "shipping_price": {},
+    "original_shipping_price": {},
+    "seller": {
+        "id": 481884,
+        "username": "Dj..Aladin",
+        "avatar_url": "https://secure.gravatar.com/avatar/6f3489d9dcf491b3a31c9d3de5f046ff?s=500&r=pg&d=mm",
+        "stats": {
+            "rating": "99.6",
+            "stars": 4.5,
+            "total": 3607
+        },
+        "min_order_total": 0.0,
+        "html_url": "https://www.discogs.com/user/Dj..Aladin",
+        "uid": 481884,
+        "url": "https://api.discogs.com/users/Dj..Aladin",
+        "payment": "PayPal Commerce",
+        "shipping": "Shipping price is 8 EUROS for  Europe  , 10 euros for the rest of the world but untracked for one records   ( FOR MORE ASK ME BEFORE .)  For tracking ask but it is much more expensive ..... \r\nShipping price for France is offer for a minimum of 80 eu of orders  ( without offers )\r\nShipping price is offer for the rest of the world for a minimum of 100 Euros of orders ( without offers )( except for south America )\r\nBefore ordering please take the time to read the description ( accurate ) \r\nPlease a phone number is needed with the adress to help the postman and us in case of lost ...... \r\nWe have been robbed , so maybe some records have been stolen and not available ; Apologise for that ..........\r\nI SHIP ONLY TRACKED TO SOUTH AMERICA ",
+        "resource_url": "https://api.discogs.com/users/Dj..Aladin"
+    },
+    "release": {
+        "thumbnail": "https://i.discogs.com/BfLWaZQkECSpIVYk_ANKuALkKZIvkrFikB0Ijlpo61g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+        "description": "Sun Ra - Live In Paris At The \"Gibus\" (LP, Album, Gat)",
+        "images": [
+            {
+                "type": "primary",
+                "uri": "https://i.discogs.com/IOT9LAh1Q85bLY56MhJV1ZWm6cJCVjm5Wr7m3f46ovw/rs:fit/g:sm/q:90/h:373/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/IOT9LAh1Q85bLY56MhJV1ZWm6cJCVjm5Wr7m3f46ovw/rs:fit/g:sm/q:90/h:373/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/BfLWaZQkECSpIVYk_ANKuALkKZIvkrFikB0Ijlpo61g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTI4MzUwNjgz/MS5qcGVn.jpeg",
+                "width": 370,
+                "height": 373
+            },
+            {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/K-HfTztESexSANSSyUF98p56l9y1Md2zTITr4Ksf6PE/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTY2MDMxOTY4/NC00NTUxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/K-HfTztESexSANSSyUF98p56l9y1Md2zTITr4Ksf6PE/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTY2MDMxOTY4/NC00NTUxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/J9ZhP18gmvsmrhbB0iC1WNhoUPW_4QUjfweVpdHOpmQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjcx/MTktMTY2MDMxOTY4/NC00NTUxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 582
+            }
+        ],
+        "artist": "Sun Ra",
+        "format": "LP, Album, Gat",
+        "resource_url": "https://api.discogs.com/releases/1067119",
+        "title": "Live In Paris At The \"Gibus\"",
+        "year": 1973,
+        "id": 1067119,
+        "catalog_number": "40 540",
+        "stats": {
+            "community": {
+                "in_wantlist": 221,
+                "in_collection": 80
+            }
+        }
+    }
+}

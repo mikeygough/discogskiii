@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import json
+import re
 
 
 def get_master_id(artist):
@@ -47,8 +48,10 @@ def get_listing_id(release_id):
     for link in links:
         # ? removes additional query parameters (currency)
         if filter in str(link) and '?' not in str(link):
-            listing_ids.append(link)
-
+            # regex the id
+            listing_ids.append(re.findall(r'-?\d+\.?\d*', str(link)))
+    # flatten the list
+    listing_ids = [item for sublist in listing_ids for item in sublist]
     return listing_ids
     # add to unit_test
     # print(page.status_code)
@@ -57,6 +60,17 @@ def get_listing_id(release_id):
     # full link: https://www.discogs.com/sell/history/7068875
     # may require authentication
     # ^ release_id
+
+
+def get_marketplace_listing(listing_id):
+    ''' REQUIRES AUTHENTICATION
+        return marketplace listing json '''
+    r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id)).text
+
+    # turn string into pretty json
+    r_json = json.loads(r)
+    r_json = json.dumps(r_json, indent=4)
+    return r_json
 
 
 def main():
@@ -69,6 +83,9 @@ def main():
     print("GET LISTING IDS")
     listing_ids = get_listing_id(main_release_id)
     print(listing_ids)
+    print("GET MARKETPLACE LISTING")
+    marketplace_listing = get_marketplace_listing(listing_ids[0])
+    print(marketplace_listing)
 
 if __name__ == '__main__':
     main()
