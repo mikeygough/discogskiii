@@ -23,9 +23,18 @@ in development:
 notes:
 - there is a difference between _release_ and _master_. for example, RELEASE https://www.discogs.com/release/7068875 is different from MASTER https://www.discogs.com/master/143615 though they appear to be the same record.
 - my artist-search returns the master/ url. if we make a get request to that master ID, we do get a result that contains main_release id. which we can then search for specifically. in that response is the submitters and contributors? maybe these are people who have that release for sale? 
+- to get copies available for sale...
 
+1. search artist.
+1.1 get master.
+2. search master.
+2.1 get main_release
+3. scrape discogs.com/sell/release{main_release} with pd.read_html. get sellers
+4. loop through sellers. loop through inventory of sellers looking for release_id. get listing
+5. search marketplace for listing. return results.
 
 issues:
+- when searching through a user's inventory, it's possible for example that a user has thousands of listings. in one recent test, a user had 10,099 listings which caused my request to essentially time out. we can filter with 'status = For Sale'... and we can sort. but there aren't really good sorting fields. i can sort by listed, price, item (title of release), artist, label, catno or audio in either descending or ascending order.
 - long load times. im doing the pagination before loading the page. maybe i can load the first x results,
 and subsequently load more as the user scrolls?
 - error if user doesn't exist when searching for a user's inventory. need to design and implement error pages
