@@ -80,12 +80,13 @@ def buy():
             try:
                 info = {
                 "title": r_json['release']['title'],
+                'artist': r_json['release']['artist'],
                 "uri": r_json['uri'],
                 "condition": r_json['condition'],
-                "sleeve_condition": r_json['sleeve_condition'],
                 "price": '${:.2f}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
                 "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
-                "in_collection": r_json['release']['stats']['community']['in_collection']}
+                "in_collection": r_json['release']['stats']['community']['in_collection'],
+                'thumb': r_json['release']['thumbnail']}
                 vinyls.append(info)
             except:
                 pass
@@ -94,14 +95,19 @@ def buy():
         if len(vinyls) < 1:
             return render_template("temp404.html")
 
-        print("before title: ", vinyls[0]['title'])
         title = vinyls[0]['title']
-        print("after title: ", title)
+        artist = vinyls[0]['artist']
         in_wantlist = vinyls[0]['in_wantlist']
+        in_wantlist = f'{in_wantlist:,}'
         in_collection = vinyls[0]['in_collection']
+        in_collection = f'{in_collection:,}'
+
+        # sort by condition
+        sorted_vinyls = sorted(vinyls, key=lambda d: d['condition']) 
 
         return render_template("buy.html", 
-                               vinyls=vinyls, title=title,
+                               sorted_vinyls=sorted_vinyls, title=title,
+                               artist=artist,
                                in_wantlist=in_wantlist, 
                                in_collection=in_collection)
     
