@@ -14,7 +14,6 @@
                 <th id="condition">Condition</th>
                 <th id="sleeve-condition">Sleeve Condition</th>
                 <th id="price">Price</th>
-                <th id="currency">Currency</th>
             </tr>
             {% for vinyl in vinyls %}
             <tr>
@@ -22,9 +21,6 @@
                 <td id="condition">{{ vinyl['condition'] }}</td>
                 <td id="sleeve-condition">{{ vinyl['sleeve_condition'] }}</td>
                 <td id="price">{{ vinyl['price'] }}</td>
-                <td id="currency">{{ vinyl['currency'] }}</td>
-                <td id="in-wantlist">{{ vinyl['in_wantlist'] }}</td>
-                <td id="in-colection">{{ vinyl['in_collection'] }}</td>
             </tr>
             {% endfor %}
         </table>

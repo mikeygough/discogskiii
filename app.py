@@ -83,18 +83,20 @@ def buy():
                 "uri": r_json['uri'],
                 "condition": r_json['condition'],
                 "sleeve_condition": r_json['sleeve_condition'],
-                "price": round(int(r_json['price']['value']), 2),
-                "currency": r_json['price']['currency'],
+                "price": '${:.2f}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
                 "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
                 "in_collection": r_json['release']['stats']['community']['in_collection']}
                 vinyls.append(info)
             except:
                 pass
 
+        # if there are none for sale, return error message
         if len(vinyls) < 1:
             return render_template("temp404.html")
 
+        print("before title: ", vinyls[0]['title'])
         title = vinyls[0]['title']
+        print("after title: ", title)
         in_wantlist = vinyls[0]['in_wantlist']
         in_collection = vinyls[0]['in_collection']
 
