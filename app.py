@@ -79,6 +79,7 @@ def buy():
             
             try:
                 info = {
+                "title": r_json['release']['title'],
                 "uri": r_json['uri'],
                 "condition": r_json['condition'],
                 "sleeve_condition": r_json['sleeve_condition'],
@@ -90,7 +91,17 @@ def buy():
             except:
                 pass
 
-        return render_template("buy.html", vinyls=vinyls)
+        if len(vinyls) < 1:
+            return render_template("temp404.html")
+
+        title = vinyls[0]['title']
+        in_wantlist = vinyls[0]['in_wantlist']
+        in_collection = vinyls[0]['in_collection']
+
+        return render_template("buy.html", 
+                               vinyls=vinyls, title=title,
+                               in_wantlist=in_wantlist, 
+                               in_collection=in_collection)
     
     # get
     else: # need to add some error handling here
@@ -165,6 +176,7 @@ def sample_marketplace():
         r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id)).text
 
         r_json = json.loads(r)
+
         
         try:
             info = {

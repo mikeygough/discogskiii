@@ -3,9 +3,9 @@
 {% block body %}
 
     <main role="main" class="container">
-        <h3>TEST BUY</h3>
-        <h3>Show all copies for sale</h3>
-
+        <h3>{{ title }}'s <em>Original Pressings</em> for sale</h3>
+        <h4>In wantlist: {{ in_wantlist }} </h4>
+        <h4>In collection: {{ in_collection }} </h4>
         <br>
 
         <table>
@@ -15,8 +15,6 @@
                 <th id="sleeve-condition">Sleeve Condition</th>
                 <th id="price">Price</th>
                 <th id="currency">Currency</th>
-                <th id="in-wantlist">In Wantlist</th>
-                <th id="in-collection">In Collection</th>
             </tr>
             {% for vinyl in vinyls %}
             <tr>
