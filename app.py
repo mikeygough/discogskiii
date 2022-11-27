@@ -23,11 +23,7 @@ def artist_search():
         # first get number of pages:
         num_pages = json.loads(requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text)['pagination']['pages']
 
-        # initialize empty for masters
-        masters = []
-        uris = []
-        year = []
-        thumb = []
+        vinyls = []
 
         # iterate through number of pages
         for page in range(1, num_pages + 1):
@@ -40,22 +36,23 @@ def artist_search():
             # get album title, uri, year, and thumbnail
             for result in r_json["results"]:
                 try:
-                    masters.append(result["title"])
-                    uris.append(result["uri"])
-                    year.append(result["year"])
-                    thumb.append(result["thumb"])
+                    info = {
+                    'master_id': result['master_id'],
+                    'title': result['title'],
+                    'uri': result['uri'],
+                    'year': result['year'],
+                    'thumb': result['thumb'],
+                    }
+                    vinyls.append(info)
                 except:
                     pass
 
-        # zip data
-        data = list(zip(masters, uris, year, thumb))
-
         # sort by year
-        data = sorted(data, key = lambda x: x[2])
+        sorted_vinyls = sorted(vinyls, key=lambda d: d['year']) 
         base_url = 'https://www.discogs.com'
 
         return render_template("artist-search.html",
-                               data=data, base_url=base_url)
+                               sorted_vinyls=sorted_vinyls, base_url=base_url)
     
     # get
     else:
