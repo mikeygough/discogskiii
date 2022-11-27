@@ -12,9 +12,12 @@ currently supports:
 - search by artist to see their vinyl discography
 - search by a user's ID to see all records they have listed for sale
     i'd like to build out this table to support the albumn name, condition, price, etc.
+- test search request
+- test marketplace request
 
 
 in development:
+- link artist search to display their main_release's available for sale
 - CSS Styling
 - error handling
 - unit testing
