@@ -26,6 +26,12 @@
                 <td><a href={{ base_url + vinyl['uri'] }} target="_blank" rel="noopener noreferrer">{{ vinyl['title'] }}</a></td>
                 <td id="table-year">{{ vinyl['year'] }}</td>
                 <td id="table-album-cover"><img src="{{ vinyl['thumb'] }}" alt="{{ vinyl['title'] }} Album Cover" height=75 width=75/></td>
+                <td id='buy'>
+                    <form action="/buy" method="post">
+                    <button type="submit" name="master_id" value={{ vinyl['master_id']}}>See Available for Sale</button>
+                    </form>
+                </td>
+
             </tr>
             {% endfor %}
         </table>

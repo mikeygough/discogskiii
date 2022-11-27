@@ -1,5 +1,5 @@
 from config import *
-
+from utils import *
 from flask import Flask, render_template, request
 import json
 import requests
@@ -57,6 +57,44 @@ def artist_search():
     # get
     else:
         return render_template("artist-search.html")
+
+
+@app.route("/buy", methods=["POST"])
+def buy():
+    # post
+    if request.method == "POST":
+        master_id = request.form.get("master_id")
+
+        # get main_release_id
+        main_release_id = get_main_release_id(master_id)
+
+        # get listing_ids
+        listing_ids = get_listing_id(release_id=main_release_id)
+
+        vinyls = []
+        for listing_id in listing_ids:
+            r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id)).text
+
+            r_json = json.loads(r)
+            
+            try:
+                info = {
+                "uri": r_json['uri'],
+                "condition": r_json['condition'],
+                "sleeve_condition": r_json['sleeve_condition'],
+                "price": round(int(r_json['price']['value']), 2),
+                "currency": r_json['price']['currency'],
+                "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
+                "in_collection": r_json['release']['stats']['community']['in_collection']}
+                vinyls.append(info)
+            except:
+                pass
+
+        return render_template("buy.html", vinyls=vinyls)
+    
+    # get
+    else: # need to add some error handling here
+        return render_template("index.html", vinyls=vinyls)
 
 
 @app.route("/user-listings", methods=["GET", "POST"])
@@ -140,8 +178,6 @@ def sample_marketplace():
             vinyls.append(info)
         except:
             pass
-    
-    print(vinyls)
 
     # turn string into pretty json
     # r_json = json.dumps(r_json, indent=4)
