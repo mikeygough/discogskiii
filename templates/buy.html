@@ -3,7 +3,7 @@
 {% block body %}
 
     <main role="main" class="container">
-        <h3>{{ artist }}'s <em>{{ title }}</em>...<strong>Original Pressings</strong> for sale</h3>
+        <h3>{{ artist }}'s <em>{{ title }}</em>...<strong>Original Pressings</strong> for sale..!</h3>
         <br>
         <img src="{{ thumb }}" alt="" height=75 width=75/>
         <br>
@@ -14,22 +14,24 @@
         <br>
         <h4>In wantlist: {{ in_wantlist }} </h4>
         <h4>In collection: {{ in_collection }} </h4>
-        <h4>Demand: {{ demand }} </h4>
+        <h4>Demand Score: {{ demand }} </h4>
 
 
         <br>
 
         <table>
             <tr>
-                <th id="uri">Discogs Listing</th>
-                <th id="condition">Condition</th>
                 <th id="price">Price</th>
+                <th id="condition">Condition</th>
+                <th id="comments">Comments</th>
+                <th id="uri"></th>
             </tr>
             {% for vinyl in sorted_vinyls %}
             <tr>
-                <td id="uri"><a href={{ vinyl['uri'] }} target="_blank" rel="noopener noreferrer">{{ title }}</td>
-                <td id="condition">{{ vinyl['condition'] }}</td>
                 <td id="price">{{ vinyl['formatted_price'] }}</td>
+                <td id="condition">{{ vinyl['condition'] }}</td>
+                <td id="comments">{{ vinyl['comments'] }}</td>
+                <td id="uri"><a href={{ vinyl['uri'] }} target="_blank" rel="noopener noreferrer">Buy on Discogs</td>
             </tr>
             {% endfor %}
         </table>

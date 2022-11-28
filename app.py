@@ -79,12 +79,14 @@ def buy():
             
             try:
                 info = {
+                "uri": r_json['uri'],
                 "title": r_json['release']['title'],
                 'artist': r_json['release']['artist'],
-                "uri": r_json['uri'],
                 "condition": r_json['condition'],
+                'comments': r_json['comments'],
+                'posted': r_json['posted'],
                 "price": r_json['price']['value'],
-                "formatted_price": '${:.4g}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
+                "formatted_price": '${:,.4g}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
                 "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
                 "in_collection": r_json['release']['stats']['community']['in_collection'],
                 'thumb': r_json['release']['thumbnail']}
@@ -114,8 +116,8 @@ def buy():
         highest_price = max(vinyls, key=lambda d: d['price'])['price']
         lowest_price = min(vinyls, key=lambda d: d['price'])['price']
         # format
-        highest_price = '${:.4g}'.format(round(int(highest_price), 2))
-        lowest_price = '${:.4g}'.format(round(int(lowest_price), 2))
+        highest_price = '${:,.4g}'.format(round(int(highest_price), 2))
+        lowest_price = '${:,.4g}'.format(round(int(lowest_price), 2))
 
         thumb = vinyls[0]['thumb']
 
