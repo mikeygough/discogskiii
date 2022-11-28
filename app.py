@@ -83,7 +83,8 @@ def buy():
                 'artist': r_json['release']['artist'],
                 "uri": r_json['uri'],
                 "condition": r_json['condition'],
-                "price": '${:.2f}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
+                "price": r_json['price']['value'],
+                "formatted_price": '${:.4g}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
                 "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
                 "in_collection": r_json['release']['stats']['community']['in_collection'],
                 'thumb': r_json['release']['thumbnail']}
@@ -91,25 +92,46 @@ def buy():
             except:
                 pass
 
+        print("Test")
+        print(vinyls[0]['price'])
+        print(vinyls[0]['formatted_price'])
         # if there are none for sale, return error message
-        if len(vinyls) < 1:
+        number_for_sale = len(vinyls)
+        if number_for_sale < 1:
             return render_template("temp404.html")
 
+        # get variables
         title = vinyls[0]['title']
         artist = vinyls[0]['artist']
         in_wantlist = vinyls[0]['in_wantlist']
-        in_wantlist = f'{in_wantlist:,}'
         in_collection = vinyls[0]['in_collection']
+        # should turn this into a relative measure...
+        demand = round(in_wantlist / in_collection, 2)
+        # format
+        in_wantlist = f'{in_wantlist:,}'
         in_collection = f'{in_collection:,}'
+        # price is this working if the prices are strings?
+        highest_price = max(vinyls, key=lambda d: d['price'])['price']
+        lowest_price = min(vinyls, key=lambda d: d['price'])['price']
+        # format
+        highest_price = '${:.4g}'.format(round(int(highest_price), 2))
+        lowest_price = '${:.4g}'.format(round(int(lowest_price), 2))
 
-        # sort by condition
-        sorted_vinyls = sorted(vinyls, key=lambda d: d['condition']) 
+        thumb = vinyls[0]['thumb']
+
+
+        # sort by condition... this doesn't work since condition isn't a scale it's words.
+        sorted_vinyls = sorted(vinyls, key=lambda d: d['price']) 
 
         return render_template("buy.html", 
                                sorted_vinyls=sorted_vinyls, title=title,
                                artist=artist,
-                               in_wantlist=in_wantlist, 
-                               in_collection=in_collection)
+                               in_wantlist=in_wantlist,
+                               in_collection=in_collection,
+                               highest_price=highest_price,
+                               lowest_price=lowest_price,
+                               number_for_sale=number_for_sale,
+                               demand=demand, thumb=thumb)
     
     # get
     else: # need to add some error handling here
