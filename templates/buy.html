@@ -24,6 +24,7 @@
                 <th id="price">Price</th>
                 <th id="condition">Condition</th>
                 <th id="comments">Comments</th>
+                <th id="days-since-listed">Days Since Listed</th>
                 <th id="uri"></th>
             </tr>
             {% for vinyl in sorted_vinyls %}
@@ -31,6 +32,7 @@
                 <td id="price">{{ vinyl['formatted_price'] }}</td>
                 <td id="condition">{{ vinyl['condition'] }}</td>
                 <td id="comments">{{ vinyl['comments'] }}</td>
+                <th id="days-since-listed">{{ vinyl['days_since_listed']}}</th>
                 <td id="uri"><a href={{ vinyl['uri'] }} target="_blank" rel="noopener noreferrer">Buy on Discogs</td>
             </tr>
             {% endfor %}

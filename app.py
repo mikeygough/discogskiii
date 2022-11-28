@@ -1,4 +1,5 @@
 from config import *
+import datetime
 from utils import *
 from flask import Flask, render_template, request
 import json
@@ -94,9 +95,6 @@ def buy():
             except:
                 pass
 
-        print("Test")
-        print(vinyls[0]['price'])
-        print(vinyls[0]['formatted_price'])
         # if there are none for sale, return error message
         number_for_sale = len(vinyls)
         if number_for_sale < 1:
@@ -107,11 +105,12 @@ def buy():
         artist = vinyls[0]['artist']
         in_wantlist = vinyls[0]['in_wantlist']
         in_collection = vinyls[0]['in_collection']
-        # should turn this into a relative measure...
-        demand = round(in_wantlist / in_collection, 2)
+        demand = round(in_wantlist / in_collection, 2) # should turn this into a relative measure...
+        
         # format
         in_wantlist = f'{in_wantlist:,}'
         in_collection = f'{in_collection:,}'
+        
         # price is this working if the prices are strings?
         highest_price = max(vinyls, key=lambda d: d['price'])['price']
         lowest_price = min(vinyls, key=lambda d: d['price'])['price']
@@ -121,6 +120,15 @@ def buy():
 
         thumb = vinyls[0]['thumb']
 
+        # add days since added
+        for vinyl in vinyls:
+            Y = int(vinyl['posted'][0:4])
+            m = int(vinyl['posted'][5:7])
+            d = int(vinyl['posted'][8:10])
+            posted_date = datetime.date(Y, m, d)
+            today = datetime.date.today()
+            vinyl['formatted_posted'] = posted_date
+            vinyl['days_since_listed'] = (today - posted_date).days
 
         # sort by condition... this doesn't work since condition isn't a scale it's words.
         sorted_vinyls = sorted(vinyls, key=lambda d: d['price']) 
