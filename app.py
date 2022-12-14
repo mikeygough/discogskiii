@@ -8,34 +8,29 @@ import requests
 # turn this file into a flask application
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template("index.html")
-
-
-@app.route("/artist-search", methods=["GET", "POST"])
-def artist_search():
     
     # post
-    if request.method == "POST":
-        artist = request.form.get("artist")
-        
+    if request.method == 'POST':
+        artist = request.form.get('artist')
+
         # pagination
         # first get number of pages:
-        num_pages = json.loads(requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text)['pagination']['pages']
+        num_pages = json.loads(requests.get('https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}'.format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text)['pagination']['pages']
 
         vinyls = []
 
         # iterate through number of pages
         for page in range(1, num_pages + 1):
             # get data
-            r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&page={}&key={}&secret={}".format(artist, page, CONSUMER_KEY, CONSUMER_SECRET)).text
+            r = requests.get('https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&page={}&key={}&secret={}'.format(artist, page, CONSUMER_KEY, CONSUMER_SECRET)).text
 
             # turn string into json
             r_json = json.loads(r)
 
             # get album title, uri, year, and thumbnail
-            for result in r_json["results"]:
+            for result in r_json['results']:
                 try:
                     info = {
                     'master_id': result['master_id'],
@@ -52,19 +47,67 @@ def artist_search():
         sorted_vinyls = sorted(vinyls, key=lambda d: d['year']) 
         base_url = 'https://www.discogs.com'
 
-        return render_template("artist-search.html",
+        return render_template('index.html',
                                sorted_vinyls=sorted_vinyls, base_url=base_url)
     
     # get
     else:
-        return render_template("artist-search.html")
+        return render_template('index.html')
 
 
-@app.route("/buy", methods=["POST"])
+# @app.route("/artist-search", methods=["GET", "POST"])
+# def artist_search():
+    
+#     # post
+#     if request.method == "POST":
+#         artist = request.form.get("artist")
+        
+#         # pagination
+#         # first get number of pages:
+#         num_pages = json.loads(requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&key={}&secret={}".format(artist, CONSUMER_KEY, CONSUMER_SECRET)).text)['pagination']['pages']
+
+#         vinyls = []
+
+#         # iterate through number of pages
+#         for page in range(1, num_pages + 1):
+#             # get data
+#             r = requests.get("https://api.discogs.com/database/search?artist={}&type=master&format=vinyl&page={}&key={}&secret={}".format(artist, page, CONSUMER_KEY, CONSUMER_SECRET)).text
+
+#             # turn string into json
+#             r_json = json.loads(r)
+
+#             # get album title, uri, year, and thumbnail
+#             for result in r_json["results"]:
+#                 try:
+#                     info = {
+#                     'master_id': result['master_id'],
+#                     'title': result['title'],
+#                     'uri': result['uri'],
+#                     'year': result['year'],
+#                     'thumb': result['thumb'],
+#                     }
+#                     vinyls.append(info)
+#                 except:
+#                     pass
+
+#         # sort by year
+#         sorted_vinyls = sorted(vinyls, key=lambda d: d['year']) 
+#         base_url = 'https://www.discogs.com'
+
+#         return render_template("artist-search.html",
+#                                sorted_vinyls=sorted_vinyls, base_url=base_url)
+    
+#     # get
+#     else:
+#         return render_template("artist-search.html")
+
+
+@app.route('/buy', methods=['POST'])
 def buy():
+    
     # post
-    if request.method == "POST":
-        master_id = request.form.get("master_id")
+    if request.method == 'POST':
+        master_id = request.form.get('master_id')
 
         # get main_release_id
         main_release_id = get_main_release_id(master_id)
@@ -74,22 +117,22 @@ def buy():
 
         vinyls = []
         for listing_id in listing_ids:
-            r = requests.get("https://api.discogs.com/marketplace/listings/{}".format(listing_id)).text
+            r = requests.get('https://api.discogs.com/marketplace/listings/{}'.format(listing_id)).text
 
             r_json = json.loads(r)
             
             try:
                 info = {
-                "uri": r_json['uri'],
-                "title": r_json['release']['title'],
+                'uri': r_json['uri'],
+                'title': r_json['release']['title'],
                 'artist': r_json['release']['artist'],
-                "condition": r_json['condition'],
+                'condition': r_json['condition'],
                 'comments': r_json['comments'],
                 'posted': r_json['posted'],
-                "price": r_json['price']['value'],
-                "formatted_price": '${:,.4g}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
-                "in_wantlist": r_json['release']['stats']['community']['in_wantlist'],
-                "in_collection": r_json['release']['stats']['community']['in_collection'],
+                'price': r_json['price']['value'],
+                'formatted_price': '${:,.4g}'.format(round(int(r_json['price']['value']), 2)), # is always in USD
+                'in_wantlist': r_json['release']['stats']['community']['in_wantlist'],
+                'in_collection': r_json['release']['stats']['community']['in_collection'],
                 'thumb': r_json['release']['thumbnail']}
                 vinyls.append(info)
             except:
@@ -98,7 +141,7 @@ def buy():
         # if there are none for sale, return error message
         number_for_sale = len(vinyls)
         if number_for_sale < 1:
-            return render_template("temp404.html")
+            return render_template('temp404.html')
 
         # get variables
         title = vinyls[0]['title']
@@ -133,7 +176,7 @@ def buy():
         # sort by condition... this doesn't work since condition isn't a scale it's words.
         sorted_vinyls = sorted(vinyls, key=lambda d: d['price']) 
 
-        return render_template("buy.html", 
+        return render_template('buy.html', 
                                sorted_vinyls=sorted_vinyls, title=title,
                                artist=artist,
                                in_wantlist=in_wantlist,
@@ -145,50 +188,50 @@ def buy():
     
     # get
     else: # need to add some error handling here
-        return render_template("index.html", vinyls=vinyls)
+        return render_template('index.html', vinyls=vinyls)
 
 
-@app.route("/user-listings", methods=["GET", "POST"])
-def user_listings():
+# @app.route("/user-listings", methods=["GET", "POST"])
+# def user_listings():
 
-    # good test user = 'uirapuru'
-    # post
-    if request.method == "POST":
-        user_id = request.form.get("user_id")
+#     # good test user = 'uirapuru'
+#     # post
+#     if request.method == "POST":
+#         user_id = request.form.get("user_id")
     
-        # pagination
-        # first get number of pages:
-        num_pages = json.loads(requests.get("https://api.discogs.com/users/{}/inventory".format(user_id)).text)['pagination']['pages']
+#         # pagination
+#         # first get number of pages:
+#         num_pages = json.loads(requests.get("https://api.discogs.com/users/{}/inventory".format(user_id)).text)['pagination']['pages']
 
-        # initialize empty for masters
-        ids = []
-        uris = []
+#         # initialize empty for masters
+#         ids = []
+#         uris = []
 
-        # iterate through number of pages
-        for page in range(1, num_pages + 1):
-            # get data
-            r = requests.get("https://api.discogs.com/users/{}/inventory".format(user_id)).text
+#         # iterate through number of pages
+#         for page in range(1, num_pages + 1):
+#             # get data
+#             r = requests.get("https://api.discogs.com/users/{}/inventory".format(user_id)).text
 
-            # turn string into json
-            r_json = json.loads(r)
+#             # turn string into json
+#             r_json = json.loads(r)
 
-            # get data
-            for result in r_json["listings"]:
-                try:
-                    ids.append(result["id"])
-                    uris.append(result["uri"])
-                except:
-                    pass
+#             # get data
+#             for result in r_json["listings"]:
+#                 try:
+#                     ids.append(result["id"])
+#                     uris.append(result["uri"])
+#                 except:
+#                     pass
 
-        # zip data
-        data = list(zip(ids, uris))
+#         # zip data
+#         data = list(zip(ids, uris))
 
-        return render_template("user-listings.html",
-                               data=data)
+#         return render_template("user-listings.html",
+#                                data=data)
 
-    # get
-    else:
-        return render_template("user-listings.html")
+#     # get
+#     else:
+#         return render_template("user-listings.html")
 
 
 @app.route("/sample-request")
