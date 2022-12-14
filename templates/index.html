@@ -3,9 +3,12 @@
 {% block body %}
     
     <main role="main" class="container">
-        <p>hey!</p>
-        <p>welcome to discogskiii!</p>
-        <h3>Search an artist and see their master releases</h3>
+        <h2>hey!</h2>
+        <h3>welcome to discogskiii!</h3>
+
+        <br>
+
+        <h4>Search an artist and see their master releases</h3>
         <p>*for now only shows vinyl albums for which discogs has all data.</p>
 
         <br>
@@ -17,32 +20,28 @@
 
         <br>
 
-        <table>
-            <tr>
-                <th>Master</th>
-                <th id="table-year">Year</th>
-                <th id="table-album-cover">Album Cover</th>
-            </tr>
-            {% for vinyl in sorted_vinyls %}
-            <tr>
-                <td><a href={{ base_url + vinyl['uri'] }} target="_blank" rel="noopener noreferrer">{{ vinyl['title'] }}</a></td>
-                <td id="table-year">{{ vinyl['year'] }}</td>
-                <td id="table-album-cover"><img src="{{ vinyl['thumb'] }}" alt="{{ vinyl['title'] }} Album Cover" height=75 width=75/></td>
-                <td id='buy'>
-                    <form action="/buy" method="post">
-                    <button type="submit" name="master_id" value={{ vinyl['master_id']}}>See Available for Sale</button>
-                    </form>
-                </td>
+        {% if sorted_vinyls %}
+            <table>
+                <tr>
+                    <th>Master</th>
+                    <th id="table-year">Year</th>
+                    <th id="table-album-cover">Album Cover</th>
+                </tr>
+                {% for vinyl in sorted_vinyls %}
+                <tr>
+                    <td><a href={{ base_url + vinyl['uri'] }} target="_blank" rel="noopener noreferrer">{{ vinyl['title'] }}</a></td>
+                    <td id="table-year">{{ vinyl['year'] }}</td>
+                    <td id="table-album-cover"><img src="{{ vinyl['thumb'] }}" alt="{{ vinyl['title'] }} Album Cover" height=75 width=75/></td>
+                    <td id='buy'>
+                        <form action="/buy" method="post">
+                        <button type="submit" name="master_id" value={{ vinyl['master_id']}}>See Available for Sale</button>
+                        </form>
+                    </td>
 
-            </tr>
-            {% endfor %}
-        </table>
-
-        <!-- <p>currently the following routes are supported...</p>
-        <p style="font-weight: bold;"> testing routes </p>  
-        <a href="/sample-request">Sample Search Request</a>
-        <br>
-        <a href="/sample-marketplace">Sample Marketplace</a> -->
+                </tr>
+                {% endfor %}
+            </table>
+        {% endif %}
     </main>
 
 {% endblock %}
