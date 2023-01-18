@@ -8,6 +8,8 @@ import requests
 # turn this file into a flask application
 app = Flask(__name__)
 
+
+# ROUTES
 @app.route('/', methods=['GET', 'POST'])
 def index():
     
@@ -53,6 +55,7 @@ def index():
     # get
     else:
         return render_template('index.html')
+
 
 @app.route('/buy', methods=['POST'])
 def buy():
@@ -141,6 +144,7 @@ def buy():
     # get
     else: # need to add some error handling here
         return render_template('index.html', vinyls=vinyls)
+
 
 @app.route("/sample-request")
 def sample_request():

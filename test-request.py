@@ -1,6 +1,5 @@
 from config import *
 from utils import *
-
 from flask import Flask, render_template, request
 import json
 import requests
@@ -41,7 +40,3 @@ import requests
 #     print()
 
 print(get_main_release_id(master_id='32208'))
-
-
-# i need master_id or main_release
-# i need to store that in a button or something
