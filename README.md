@@ -3,8 +3,6 @@
 
 all data is taken from discogs.com via their api. i ❤️ you discogs.
 
-
-
 ---
 ### Reference:
 
