@@ -1,7 +1,11 @@
 ### About:
 **discogskiii** is a flask applicaiton built using the [discogs api](https://www.discogs.com/developers) that allows you to search an artist, see a list of their vinyl releases, and discover original pressings' of those releases available for sale on discogs! [discogs](https://en.wikipedia.org/wiki/Discogs) is a database of information about audio recordings, including commercial releases, promotional releases, and bootleg or off-label releases.
 
+[check out the version 1.0 demo!](https://bit.ly/3kB3j3y)
+
 all data is taken from discogs.com via their api. i ❤️ you discogs.
+
+--- looking to add order book functionality.
 
 ---
 ### Reference:
